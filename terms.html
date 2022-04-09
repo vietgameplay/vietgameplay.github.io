@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>terms</title>
+
+
+<style type="text/css">
+body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.6;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+  padding: 30px; }
+
+body > *:first-child {
+  margin-top: 0 !important; }
+body > *:last-child {
+  margin-bottom: 0 !important; }
+
+a {
+  color: #4183C4; }
+a.absent {
+  color: #cc0000; }
+a.anchor {
+  display: block;
+  padding-left: 30px;
+  margin-left: -30px;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0; }
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 20px 0 10px;
+  padding: 0;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  cursor: text;
+  position: relative; }
+
+h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
+  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
+  text-decoration: none; }
+
+h1 tt, h1 code {
+  font-size: inherit; }
+
+h2 tt, h2 code {
+  font-size: inherit; }
+
+h3 tt, h3 code {
+  font-size: inherit; }
+
+h4 tt, h4 code {
+  font-size: inherit; }
+
+h5 tt, h5 code {
+  font-size: inherit; }
+
+h6 tt, h6 code {
+  font-size: inherit; }
+
+h1 {
+  font-size: 28px;
+  color: black; }
+
+h2 {
+  font-size: 24px;
+  border-bottom: 1px solid #cccccc;
+  color: black; }
+
+h3 {
+  font-size: 18px; }
+
+h4 {
+  font-size: 16px; }
+
+h5 {
+  font-size: 14px; }
+
+h6 {
+  color: #777777;
+  font-size: 14px; }
+
+p, blockquote, ul, ol, dl, li, table, pre {
+  margin: 15px 0; }
+
+hr {
+  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
+  border: 0 none;
+  color: #cccccc;
+  height: 4px;
+  padding: 0;
+}
+
+body > h2:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+body > h1:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+  body > h1:first-child + h2 {
+    margin-top: 0;
+    padding-top: 0; }
+body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
+  margin-top: 0;
+  padding-top: 0; }
+
+a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
+  margin-top: 0;
+  padding-top: 0; }
+
+h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
+  margin-top: 0; }
+
+li p.first {
+  display: inline-block; }
+li {
+  margin: 0; }
+ul, ol {
+  padding-left: 30px; }
+
+ul :first-child, ol :first-child {
+  margin-top: 0; }
+
+dl {
+  padding: 0; }
+  dl dt {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0;
+    margin: 15px 0 5px; }
+    dl dt:first-child {
+      padding: 0; }
+    dl dt > :first-child {
+      margin-top: 0; }
+    dl dt > :last-child {
+      margin-bottom: 0; }
+  dl dd {
+    margin: 0 0 15px;
+    padding: 0 15px; }
+    dl dd > :first-child {
+      margin-top: 0; }
+    dl dd > :last-child {
+      margin-bottom: 0; }
+
+blockquote {
+  border-left: 4px solid #dddddd;
+  padding: 0 15px;
+  color: #777777; }
+  blockquote > :first-child {
+    margin-top: 0; }
+  blockquote > :last-child {
+    margin-bottom: 0; }
+
+table {
+  padding: 0;border-collapse: collapse; }
+  table tr {
+    border-top: 1px solid #cccccc;
+    background-color: white;
+    margin: 0;
+    padding: 0; }
+    table tr:nth-child(2n) {
+      background-color: #f8f8f8; }
+    table tr th {
+      font-weight: bold;
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr td {
+      border: 1px solid #cccccc;
+      margin: 0;
+      padding: 6px 13px; }
+    table tr th :first-child, table tr td :first-child {
+      margin-top: 0; }
+    table tr th :last-child, table tr td :last-child {
+      margin-bottom: 0; }
+
+img {
+  max-width: 100%; }
+
+span.frame {
+  display: block;
+  overflow: hidden; }
+  span.frame > span {
+    border: 1px solid #dddddd;
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 13px 0 0;
+    padding: 7px;
+    width: auto; }
+  span.frame span img {
+    display: block;
+    float: left; }
+  span.frame span span {
+    clear: both;
+    color: #333333;
+    display: block;
+    padding: 5px 0 0; }
+span.align-center {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-center > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: center; }
+  span.align-center span img {
+    margin: 0 auto;
+    text-align: center; }
+span.align-right {
+  display: block;
+  overflow: hidden;
+  clear: both; }
+  span.align-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px 0 0;
+    text-align: right; }
+  span.align-right span img {
+    margin: 0;
+    text-align: right; }
+span.float-left {
+  display: block;
+  margin-right: 13px;
+  overflow: hidden;
+  float: left; }
+  span.float-left span {
+    margin: 13px 0 0; }
+span.float-right {
+  display: block;
+  margin-left: 13px;
+  overflow: hidden;
+  float: right; }
+  span.float-right > span {
+    display: block;
+    overflow: hidden;
+    margin: 13px auto 0;
+    text-align: right; }
+
+code, tt {
+  margin: 0 2px;
+  padding: 0 5px;
+  white-space: nowrap;
+  border: 1px solid #eaeaea;
+  background-color: #f8f8f8;
+  border-radius: 3px; }
+
+pre code {
+  margin: 0;
+  padding: 0;
+  white-space: pre;
+  border: none;
+  background: transparent; }
+
+.highlight pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+
+pre {
+  background-color: #f8f8f8;
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  line-height: 19px;
+  overflow: auto;
+  padding: 6px 10px;
+  border-radius: 3px; }
+  pre code, pre tt {
+    background-color: transparent;
+    border: none; }
+
+sup {
+    font-size: 0.83em;
+    vertical-align: super;
+    line-height: 0;
+}
+
+kbd {
+  display: inline-block;
+  padding: 3px 5px;
+  font-size: 11px;
+  line-height: 10px;
+  color: #555;
+  vertical-align: middle;
+  background-color: #fcfcfc;
+  border: solid 1px #ccc;
+  border-bottom-color: #bbb;
+  border-radius: 3px;
+  box-shadow: inset 0 -1px 0 #bbb
+}
+
+* {
+	-webkit-print-color-adjust: exact;
+}
+@media screen and (min-width: 914px) {
+    body {
+        width: 854px;
+        margin:0 auto;
+    }
+}
+@media print {
+	table, pre {
+		page-break-inside: avoid;
+	}
+	pre {
+		word-wrap: break-word;
+	}
+}
+</style>
+
+
+</head>
+
+<body>
+  <h2 id="toc_0">User Agreement</h2>
+
+  <p>“Text Scanner” hereby reminds you (user) that before becoming a user, please read this User Agreement (hereinafter referred to as the “Agreement”) carefully to ensure that you fully understand the terms of this agreement. Please read carefully and choose to accept or not to accept this agreement. Unless you accept all the terms of this agreement, you have no right to upload and compress pictures, register, log in or use the services covered by this agreement. Your registration, login, use, etc. will be regarded as acceptance of this agreement, and you agree to be bound by the terms of this agreement. </p>
+  
+  <p>This agreement stipulates the rights and obligations of "Text Scanner" software services (hereinafter referred to as "services") between "Text Scanner" and users. "User" means an individual who registers, logs in, and uses the Service. This agreement may be updated by Text Scanner at any time. The updated terms of the agreement will be replaced by the original terms of the agreement without prior notice. Users can check the terms of the latest version of the agreement on this website. After Text Scanner modifies the terms of the agreement, if the user does not accept the revised terms, please stop using the service provided by Text Scanner immediately, and the user will continue to use the service provided by Text Scanner to be deemed to accept the revised agreement . </p>
+  
+  <p>I, account registration</p>
+  
+  <p>1. Users need to register a "Text Scanner" account before using this service. The "Text Scanner" account can be registered with a mobile phone number or Sina Weibo, QQ, and Wechat numbers. </p>
+  
+  <p>2. In view of the binding registration method of the "Text Scanner" account, you agree that "Text Scanner" will use the mobile phone number you provide and/or automatically extract your mobile phone number and automatically extract your mobile device identification during registration. Information such as code is used for registration. </p>
+  
+  <p>3. When users register and use this service, "Text Scanner" needs to collect personal information that can identify users so that "Text Scanner" can contact users when necessary, or provide users with a better experience. The information collected by "Text Scanner" includes but is not limited to the user's name, gender, age, hobbies, and personal descriptions; "Text Scanner" agrees that the use of this information will be subject to the constraints of the third user's personal privacy information protection . </p>
+  
+  <p>II, service content</p>
+  
+  <p>1. The specific content of this service is provided by "Text Scanner" according to the actual situation, including but not limited to authorized users to conduct instant messaging, add friends, add comments, follow others, and post messages through their accounts. "Text Scanner" can make changes to the services it provides, and the content of the services provided by "Scanning" may be changed at any time; users will receive a notification from "Scanning" about service changes. </p>
+  
+  <p>III, user's personal privacy information protection</p>
+  
+  <p>1. Personal privacy information refers to the information involving the user's personal identity or personal privacy, such as the user's mobile phone number, mobile device identification code, IP address, and user chat records. Non-personal privacy information refers to the basic record information of the user's operating status and usage habits of the service, etc. that are clearly and objectively reflected on the "Text Scanner" server, other ordinary information beyond the scope of personal privacy information, and the above-mentioned privacy information that the user agrees to disclose. </p>
+  
+  <p>2. It is the consistent system of "Text Scanner" to respect the privacy of users' personal privacy information. "Text Scanner" will take technical measures and other necessary measures to ensure the security of users' personal privacy information and prevent users from collecting information in this service. Leakage, damage or loss of personal privacy information. In the event of the aforementioned situation or when Text Scanner finds that the aforementioned situation may occur, it will take remedial measures in a timely manner. </p>
+  
+  <p>3. "Text Scanner" will not disclose or disclose the user's personal privacy information to any third party without the user's consent. With the exception of the following specific circumstances:
+  (1) "Text Scanner" provides users' personal privacy information in accordance with laws and regulations or the instructions of competent authorities;
+  (2) Any leakage of personal information caused by the user informing others of his user password or sharing the registered account and password with others, or other leakage of personal privacy information not caused by "Text Scanner";
+  (3) Users disclose their personal privacy information to third parties by themselves;
+  (4) The user, "Text Scanner" and its partners have reached an agreement on the disclosure of the use of the user's personal privacy information, and "Text Scanner" therefore discloses the user's personal privacy information to the partner;
+  (5) Any disclosure of users' personal privacy information due to hacker attacks, computer virus intrusions and other force majeure events. </p>
+  
+  <p>4. The user agrees that "Text Scanner" can use the user's personal privacy information in the following matters:
+  (1) "Text Scanner" sends important notices to users in a timely manner, such as software updates and changes to the terms of this agreement;
+  (2) "Text Scanner" conducts internal audits, data analysis and research to improve "Text Scanner" products, services and communication with users;
+  (3) According to this agreement, "Text Scanner" manages, reviews user information and takes measures;
+  (4) Other matters stipulated by applicable laws and regulations.
+  In addition to the above matters, "Text Scanner" will not use the user's personal privacy information for any other purpose without the prior consent of the user. </p>
+  
+  <p>5. In order to improve the technology and services of "Text Scanner" and provide users with a better service experience, "Text Scanner" may collect, use or provide users' non-personal privacy information to third parties by itself. </p>
+  
+  <p>IV, content specification</p>
+  
+  <p>1. The content described in this article refers to any content made, uploaded, copied, published, or disseminated by the user during the use of the service, including but not limited to account avatar, name, user description and other registration information and authentication information, or Text, voice, pictures, videos, graphics, etc. to send, reply or automatically reply to messages and related link pages, as well as other content generated by using the account or the service. </p>
+  
+  <p>2. Users shall not use the "Text Scanner" account or this service to create, upload, copy, publish, and disseminate content prohibited by the following laws, regulations and policies:
+  (1) Opposes the basic principles established by the Constitution;
+  (2) Endangering national security, divulging state secrets, subverting state power, and undermining national unity;
+  (3) Damage to national honor and interests;
+  (4) Inciting ethnic hatred, ethnic discrimination, or undermining ethnic unity;
+  (5) Undermining the state's religious policy and promoting cults and feudal superstitions;
+  (6) Spreading rumors, disrupting social order, and undermining social stability;
+  (7) Spreading obscenity, pornography, gambling, violence, murder, terror or instigating crimes;
+  (8) Insulting or slandering others and infringing on the legitimate rights and interests of others;
+  (9) Failure to comply with the "seven bottom lines" requirements of the bottom line of laws and regulations, the bottom line of the socialist system, the bottom line of national interests, the bottom line of citizens' legitimate rights and interests, the bottom line of social public order, the bottom line of morality, and the bottom line of information authenticity;
+  (10) Information containing other content prohibited by laws and administrative regulations. </p>
+  
+  <p>3. Users shall not use the "Text Scanner" account or this service to create, upload, copy, publish, or disseminate the following content that interferes with the normal operation of "Text Scanner" and infringes the legitimate rights and interests of other users or third parties:
+  (1) contains any sexual or sexual innuendo;
+  (2) Contains abusive, intimidating and threatening content;
+  (3) Contains harassment, spam, malicious information, and deceptive information;
+  (4) Involving the privacy, personal information or materials of others;
+  (5) Infringing on other legal rights such as reputation rights, portrait rights, intellectual property rights, business secrets, etc.;
+  (6) Contains other information that interferes with the normal operation of this service and violates the legitimate rights and interests of other users or third parties. </p>
+  
+  <p>V. Rules of use</p>
+  
+  <p>1. Any content transmitted or published by users in or through this service does not reflect or represent, nor shall it be deemed to reflect or represent the views, positions or policies of "Text Scanner", "Text Scanner" No responsibility is assumed for this. </p>
+  
+  <p>2. Users shall not use the "Text Scanner" account or this service to do the following:
+  (1) Submitting or publishing false information, or stealing other people's pictures or materials, impersonating or using the name of others;
+  (2) Force or induce other users to pay attention, click on linked pages or share information;
+  (3) Fabricating facts or concealing the truth to mislead or deceive others;
+  (4) Using technical means to create fake accounts in batches;
+  (5) Use the "Text Scanner" account or this service to engage in any illegal and criminal activities;
+  (6) Making, publishing, or operating or disseminating methods and tools related to the above acts, whether or not these acts are for commercial purposes;
+  (7) Other behaviors that violate laws and regulations, infringe the legitimate rights and interests of other users, interfere with the normal operation of "Text Scanner" or "Text Scanner" without express authorization. </p>
+  
+  <p>3. The user shall be solely responsible for the authenticity, legality, innocence, accuracy and validity of the information transmitted by using the "Text Scanner" account or this service, and any legal responsibility related to the information disseminated by the user It is the responsibility of the user and has nothing to do with "Text Scanner". If this causes damage to "Text Scanner" or a third party, the user shall compensate according to law. </p>
+  
+  <p>VI, account management</p>
+  
+  <p>1. The ownership of the "Text Scanner" account belongs to "Text Scanner". After the user completes the application and registration procedures, he will obtain the right to use the "Text Scanner" account. This right of use only belongs to the initial application registrant, and donation and borrowing are prohibited. , lease, transfer or sale. "Text Scanner" has the right to reclaim the user's "Text Scanner" account due to business needs. </p>
+  
+  <p>2. The user can change or delete the personal information, registration information and transmission content on the "Text Scanner" account, but it should be noted that deleting the relevant information will also delete the text and pictures stored in the system by the user. The user shall bear this risk. </p>
+  
+  <p>3. The user is responsible for keeping the registered account information and account password safe. Improper custody of the user may lead to theft of the account or the theft of the password, and the responsibility shall be borne by the user. Users need to bear legal responsibility for the behavior under the registered account and password. The user agrees not to use another user's account or password under any circumstances. When the user suspects that others are using his account number or password, the user agrees to notify "Text Scanner" immediately. </p>
+  
+  <p>4. The user should abide by the terms of this agreement and use the service correctly and properly. If the user violates any of the terms of this agreement, "Text Scanner" has the right to interrupt or terminate the service according to the agreement after notifying the user. The "Text Scanner" account of the defaulting user provides services. At the same time, "Text Scanner" reserves the right to withdraw the "Text Scanner" account and user name at any time. </p>
+  
+  <p>VII, data storage</p>
+  
+  <p>1. "Text Scanner" is not responsible for the user's deletion or failure to store relevant data in this service. </p>
+  
+  <p>2. "Text Scanner" can determine the maximum storage period of the user's data in the service according to the actual situation, and allocate the maximum data storage space for it on the server. Users can back up the relevant data in this service according to their own needs. </p>
+  
+  <p>3. If the user stops using the service or the service is terminated, "Text Scanner" can permanently delete the user's data from the server. After the service is stopped or terminated, "Text Scanner" has no obligation to return any data to the user. </p>
+  
+  <p>VIII. Risk taking</p>
+  
+  <p>1. The user understands and agrees that "Text Scanner" only provides a platform for users to share, transmit and obtain information, and users must be responsible for all actions under their registered accounts, including any content transmitted by users and the resulting any consequences. Users should make their own judgments on Text Scanner and the content in this service, and bear all risks arising from the use of the content, including the risk arising from reliance on the correctness, integrity or practicality of the content. "Text Scanner" cannot and will not be liable for any loss or damage caused by user behavior. If the user finds that anyone violates this agreement or uses the service in other improper ways, please report or complain to "Text Scanner" immediately, and "Text Scanner" will deal with it in accordance with this agreement. </p>
+  
+  <p>2. The user understands and agrees that due to the needs of business development, "Text Scanner" reserves the right to unilaterally change, suspend, terminate or revoke all or part of the service content of this service, and the user shall bear this risk. </p>
+  
+  <p>IX, product purchase statement</p>
+  
+  <p>1. The content of this site (including but web pages, text, pictures, audio, video, graphics, etc.) are all purchased through legal channels. Users can purchase paid content through their Apple account, and "Text Scanner" provides viewing and viewing services for this service. </p>
+  
+  <p>1. "Text Scanner" can only be purchased through Apple account payment, and other channels do not provide services. </p>
+  
+  <p>X. Intellectual Property Statement</p>
+  
+  <p>1. Except that the intellectual property rights related to advertisements in this service are owned by the corresponding advertisers, the knowledge of the content (including web pages, text, pictures, audio, video, graphics, etc.) provided by "Text Scanner" in this service The property rights are owned by "Text Scanner", except that the user has legally obtained the intellectual property rights for the content published by himself before using the service. </p>
+  
+  <p>2. Unless otherwise specified, the copyrights, patents and other intellectual property rights of the software on which "Text Scanner" provides this service are owned by "Text Scanner". </p>
+  
+  <p>3. The graphics, text or their components involved in this service, as well as other "Text Scanner" logos and product and service names (hereinafter collectively referred to as ""Text Scanner" logos"), their copyright or The trademark rights belong to "Text Scanner". Without the prior written consent of "Text Scanner", the user shall not display or use the "Text Scanner" logo in any way or do other processing, and shall not indicate to others that the user has the right to display, use, or otherwise have the right to deal with the "Text Scanner" logo. identified behavior. </p>
+  
+  <p>4. The intellectual property rights legally owned by the above and any other "Text Scanner" or related advertisers are protected by law. Without the written permission of "Text Scanner" or related advertisers, users shall not use or create related Derivative Works. </p>
+  
+  <p>XI, Privacy and Collection Policy Description</p>
+  
+  <p>Dear users, during the process of using Text Scanner, the pictures you upload will be uploaded to the Text Scanner server for maximum lossless compression to ensure the maximum clarity of your pictures. In order to ensure that the user can use it at various times, the submitted content will be stored for a maximum of 48 hours. Text Scanner will not make any content uploaded by the user to protect the privacy of the user. You must accept these terms or you cannot use the software. </p>
+  
+  <p>12. Instructions for automatic subscription of goods</p>
+  
+  <p>1 subscription period: 1 month</p>
+  
+  <p>2 Subscription price: $0.99/month (available in the US)</p>
+  
+  <p>Prices may vary by region. Fees will be charged to the credit card associated with the iTunes account and will automatically renew when the paid account expires. To cancel the renewal, you can pay the current
+
+
+
+</body>
+
+</html>
