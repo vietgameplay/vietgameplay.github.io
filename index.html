@@ -1,378 +1,275 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-<title>privacy</title>
-
-
-<style type="text/css">
-body {
-  font-family: Helvetica, arial, sans-serif;
-  font-size: 14px;
-  line-height: 1.6;
-  padding-top: 10px;
-  padding-bottom: 10px;
-  background-color: white;
-  padding: 30px; }
-
-body > *:first-child {
-  margin-top: 0 !important; }
-body > *:last-child {
-  margin-bottom: 0 !important; }
-
-a {
-  color: #4183C4; }
-a.absent {
-  color: #cc0000; }
-a.anchor {
-  display: block;
-  padding-left: 30px;
-  margin-left: -30px;
-  cursor: pointer;
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0; }
-
-h1, h2, h3, h4, h5, h6 {
-  margin: 20px 0 10px;
-  padding: 0;
-  font-weight: bold;
-  -webkit-font-smoothing: antialiased;
-  cursor: text;
-  position: relative; }
-
-h1:hover a.anchor, h2:hover a.anchor, h3:hover a.anchor, h4:hover a.anchor, h5:hover a.anchor, h6:hover a.anchor {
-  background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA09pVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMy1jMDExIDY2LjE0NTY2MSwgMjAxMi8wMi8wNi0xNDo1NjoyNyAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNiAoMTMuMCAyMDEyMDMwNS5tLjQxNSAyMDEyLzAzLzA1OjIxOjAwOjAwKSAgKE1hY2ludG9zaCkiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OUM2NjlDQjI4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OUM2NjlDQjM4ODBGMTFFMTg1ODlEODNERDJBRjUwQTQiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo5QzY2OUNCMDg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo5QzY2OUNCMTg4MEYxMUUxODU4OUQ4M0REMkFGNTBBNCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PsQhXeAAAABfSURBVHjaYvz//z8DJYCRUgMYQAbAMBQIAvEqkBQWXI6sHqwHiwG70TTBxGaiWwjCTGgOUgJiF1J8wMRAIUA34B4Q76HUBelAfJYSA0CuMIEaRP8wGIkGMA54bgQIMACAmkXJi0hKJQAAAABJRU5ErkJggg==) no-repeat 10px center;
-  text-decoration: none; }
-
-h1 tt, h1 code {
-  font-size: inherit; }
-
-h2 tt, h2 code {
-  font-size: inherit; }
-
-h3 tt, h3 code {
-  font-size: inherit; }
-
-h4 tt, h4 code {
-  font-size: inherit; }
-
-h5 tt, h5 code {
-  font-size: inherit; }
-
-h6 tt, h6 code {
-  font-size: inherit; }
-
-h1 {
-  font-size: 28px;
-  color: black; }
-
-h2 {
-  font-size: 24px;
-  border-bottom: 1px solid #cccccc;
-  color: black; }
-
-h3 {
-  font-size: 18px; }
-
-h4 {
-  font-size: 16px; }
-
-h5 {
-  font-size: 14px; }
-
-h6 {
-  color: #777777;
-  font-size: 14px; }
-
-p, blockquote, ul, ol, dl, li, table, pre {
-  margin: 15px 0; }
-
-hr {
-  background: transparent url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAYAAAAECAYAAACtBE5DAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAyJpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvIiB4bWxuczp4bXBNTT0iaHR0cDovL25zLmFkb2JlLmNvbS94YXAvMS4wL21tLyIgeG1sbnM6c3RSZWY9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9zVHlwZS9SZXNvdXJjZVJlZiMiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENTNSBNYWNpbnRvc2giIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6OENDRjNBN0E2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6OENDRjNBN0I2NTZBMTFFMEI3QjRBODM4NzJDMjlGNDgiPiA8eG1wTU06RGVyaXZlZEZyb20gc3RSZWY6aW5zdGFuY2VJRD0ieG1wLmlpZDo4Q0NGM0E3ODY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIgc3RSZWY6ZG9jdW1lbnRJRD0ieG1wLmRpZDo4Q0NGM0E3OTY1NkExMUUwQjdCNEE4Mzg3MkMyOUY0OCIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/PqqezsUAAAAfSURBVHjaYmRABcYwBiM2QSA4y4hNEKYDQxAEAAIMAHNGAzhkPOlYAAAAAElFTkSuQmCC) repeat-x 0 0;
-  border: 0 none;
-  color: #cccccc;
-  height: 4px;
-  padding: 0;
-}
-
-body > h2:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-body > h1:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-  body > h1:first-child + h2 {
-    margin-top: 0;
-    padding-top: 0; }
-body > h3:first-child, body > h4:first-child, body > h5:first-child, body > h6:first-child {
-  margin-top: 0;
-  padding-top: 0; }
-
-a:first-child h1, a:first-child h2, a:first-child h3, a:first-child h4, a:first-child h5, a:first-child h6 {
-  margin-top: 0;
-  padding-top: 0; }
-
-h1 p, h2 p, h3 p, h4 p, h5 p, h6 p {
-  margin-top: 0; }
-
-li p.first {
-  display: inline-block; }
-li {
-  margin: 0; }
-ul, ol {
-  padding-left: 30px; }
-
-ul :first-child, ol :first-child {
-  margin-top: 0; }
-
-dl {
-  padding: 0; }
-  dl dt {
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    padding: 0;
-    margin: 15px 0 5px; }
-    dl dt:first-child {
-      padding: 0; }
-    dl dt > :first-child {
-      margin-top: 0; }
-    dl dt > :last-child {
-      margin-bottom: 0; }
-  dl dd {
-    margin: 0 0 15px;
-    padding: 0 15px; }
-    dl dd > :first-child {
-      margin-top: 0; }
-    dl dd > :last-child {
-      margin-bottom: 0; }
-
-blockquote {
-  border-left: 4px solid #dddddd;
-  padding: 0 15px;
-  color: #777777; }
-  blockquote > :first-child {
-    margin-top: 0; }
-  blockquote > :last-child {
-    margin-bottom: 0; }
-
-table {
-  padding: 0;border-collapse: collapse; }
-  table tr {
-    border-top: 1px solid #cccccc;
-    background-color: white;
-    margin: 0;
-    padding: 0; }
-    table tr:nth-child(2n) {
-      background-color: #f8f8f8; }
-    table tr th {
-      font-weight: bold;
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr td {
-      border: 1px solid #cccccc;
-      margin: 0;
-      padding: 6px 13px; }
-    table tr th :first-child, table tr td :first-child {
-      margin-top: 0; }
-    table tr th :last-child, table tr td :last-child {
-      margin-bottom: 0; }
-
-img {
-  max-width: 100%; }
-
-span.frame {
-  display: block;
-  overflow: hidden; }
-  span.frame > span {
-    border: 1px solid #dddddd;
-    display: block;
-    float: left;
-    overflow: hidden;
-    margin: 13px 0 0;
-    padding: 7px;
-    width: auto; }
-  span.frame span img {
-    display: block;
-    float: left; }
-  span.frame span span {
-    clear: both;
-    color: #333333;
-    display: block;
-    padding: 5px 0 0; }
-span.align-center {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-center > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: center; }
-  span.align-center span img {
-    margin: 0 auto;
-    text-align: center; }
-span.align-right {
-  display: block;
-  overflow: hidden;
-  clear: both; }
-  span.align-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px 0 0;
-    text-align: right; }
-  span.align-right span img {
-    margin: 0;
-    text-align: right; }
-span.float-left {
-  display: block;
-  margin-right: 13px;
-  overflow: hidden;
-  float: left; }
-  span.float-left span {
-    margin: 13px 0 0; }
-span.float-right {
-  display: block;
-  margin-left: 13px;
-  overflow: hidden;
-  float: right; }
-  span.float-right > span {
-    display: block;
-    overflow: hidden;
-    margin: 13px auto 0;
-    text-align: right; }
-
-code, tt {
-  margin: 0 2px;
-  padding: 0 5px;
-  white-space: nowrap;
-  border: 1px solid #eaeaea;
-  background-color: #f8f8f8;
-  border-radius: 3px; }
-
-pre code {
-  margin: 0;
-  padding: 0;
-  white-space: pre;
-  border: none;
-  background: transparent; }
-
-.highlight pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-
-pre {
-  background-color: #f8f8f8;
-  border: 1px solid #cccccc;
-  font-size: 13px;
-  line-height: 19px;
-  overflow: auto;
-  padding: 6px 10px;
-  border-radius: 3px; }
-  pre code, pre tt {
-    background-color: transparent;
-    border: none; }
-
-sup {
-    font-size: 0.83em;
-    vertical-align: super;
-    line-height: 0;
-}
-
-kbd {
-  display: inline-block;
-  padding: 3px 5px;
-  font-size: 11px;
-  line-height: 10px;
-  color: #555;
-  vertical-align: middle;
-  background-color: #fcfcfc;
-  border: solid 1px #ccc;
-  border-bottom-color: #bbb;
-  border-radius: 3px;
-  box-shadow: inset 0 -1px 0 #bbb
-}
-
-* {
-	-webkit-print-color-adjust: exact;
-}
-@media screen and (min-width: 914px) {
-    body {
-        width: 854px;
-        margin:0 auto;
-    }
-}
-@media print {
-	table, pre {
-		page-break-inside: avoid;
-	}
-	pre {
-		word-wrap: break-word;
-	}
-}
-</style>
-
-
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>VietGamePlay</title>
+<link rel="icon" href="icon/vgp_logo.png" type="image/png" />
+<link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-  <h2 id="toc_0">Privacy Policy</h2>
+  <!-- decorative background blobs -->
+  <div class="bg-blobs" aria-hidden="true">
+    <span class="blob blob-1"></span>
+    <span class="blob blob-2"></span>
+    <span class="blob blob-3"></span>
+  </div>
 
-  <p>This application respects and protects the personal privacy of all users who use the service. In order to provide you with more accurate and personalized services, this application will use and disclose your personal information in accordance with the provisions of this Privacy Policy. However, this application will treat this information with a high degree of diligence and prudence. Except as otherwise provided in this Privacy Policy, this application will not disclose or provide this information to third parties without your prior permission. This application will update this privacy policy from time to time. When you agree to the application service agreement, you are deemed to have agreed to the entire content of this privacy policy. This privacy policy is an integral part of this application service use agreement. </p>
-  
-  <ol>
-  <li>Scope of application
-  (a) When you register the account of this application, the personal registration information you provide in accordance with the requirements of this application;
-  (b) When you use the web services of this application or visit the web pages of this application platform, this application automatically receives and records the information on your browser and computer, including but not limited to your IP address, browser type, Data such as language used, date and time of access, hardware and software feature information, and web page records you need;
-  (c) User personal data obtained by this application from business partners through legal channels.
-  You understand and agree that this Privacy Policy does not apply to the following information:
-  (a) The keyword information you enter when using the search service provided by this application platform;
-  (b) The relevant information and data collected by this application that you publish in this application, including but not limited to participation activities, transaction information and evaluation details;
-  (c) Violation of legal provisions or violation of the rules of this application and the measures that this application has taken against you. </li>
-  <li>Information use
-  (a) This application will not provide, sell, rent, share or trade your personal information to any unrelated third party, unless you have obtained your permission in advance, or the third party and this application (including this application affiliates) individually or jointly Provide you with services, and after the service ends, it will be prohibited from accessing all such materials, including those that it had previously been able to access.
-  (b) This application also does not allow any third party to collect, edit, sell or disseminate your personal information for free by any means. If any user of this application platform engages in the above activities, once discovered, this application has the right to immediately terminate the service agreement with the user.
-  (c) For the purpose of serving users, this application may use your personal information to provide you with information that is of interest to you, including but not limited to sending you product and service information, or sharing information with the application partners for their convenience To send you information about its products and services (the latter requires your prior consent). </li>
-  <li><p>Disclosure
-  In the following cases, this application will disclose your personal information in whole or in part according to your personal wishes or the provisions of the law:
-  (a) with your prior consent, to third parties;
-  (b) In order to provide the products and services you have requested, it is necessary to share your personal information with third parties;
-  (c) In accordance with the relevant provisions of the law, or the requirements of administrative or judicial institutions, to third parties or administrative or judicial institutions;
-  (d) If you violate relevant Chinese laws, regulations or this application service agreement or related rules, you need to disclose it to a third party;
-  (e) If you are a qualified intellectual property complainant and have filed a complaint, at the request of the respondent, disclose it to the respondent so that both parties can deal with possible rights disputes;
-  (f) In a transaction created on this application platform, if any party to the transaction fulfills or partially fulfills the transaction obligations and makes a request for information disclosure, this application has the right to decide to provide the user with the contact information of the counterparty of the transaction, etc. information to facilitate the completion of a transaction or the resolution of a dispute.
-  (g) Other disclosures that this application deems appropriate in accordance with laws, regulations or website policies. </p></li>
-  <li><p>Information storage and exchange
-  The information and data about you collected by this application will be saved on the servers of this application and/or its affiliates, and these information and data may be transmitted to your country, region or outside the location where this application collects information and data and in Accessed, stored and displayed abroad. </p></li>
-  <li><p>Use of Cookies
-  (a) If you do not refuse to accept cookies, this application will set or access cookies on your computer so that you can log in or use the services or functions of this application platform that rely on cookies. This application uses cookies to provide you with more thoughtful and personalized services, including promotional services.
-  (b) You have the right to choose to accept or reject cookies. You can refuse to accept cookies by modifying your browser settings. However, if you choose to refuse to accept cookies, you may not be able to log in or use the web services or functions of this application that rely on cookies.
-  (c) The relevant information obtained through the cookies set by this application will be subject to this policy. </p></li>
-  <li><p>Information Security
-  (a) This app account has security protection functions, please keep your user name and password information properly. This application will ensure that your information is not lost, abused and altered by encrypting user passwords and other security measures. Despite the aforementioned security measures, please note that there are no "perfect security measures" on the information network.
-  (b) When using this application network service to conduct online transactions, you will inevitably have to contact the counterparty or potential transaction. </p></li>
-  <li><p>Changes to this Privacy Policy
-  (a) If we decide to change the Privacy Policy, we will post those changes in this Policy, on our website and where we deem appropriate so that you can understand how we collect and use your personal information and who can access it, and under what circumstances we will disclose this information.
-  (b) The Company reserves the right to amend this Policy at any time, so please review it frequently. If there are major changes to this policy, the company will notify it through a website notice.
-  parties disclose their personal information, such as contact information or postal address. Please properly protect your personal information and only provide it to others when necessary. If you find that your personal information is leaked, especially the user name and password of the app, please contact the customer service of the app immediately so that the app can take corresponding measures. </p></li>
-  </ol>
+  <!-- Header -->
+  <header class="topbar">
+    <a href="#" class="logo" data-view="home" aria-label="VietGamePlay home">
+      <img src="icon/vgp_logo.png" alt="VGP logo" />
+      <span class="logo-text">VietGamePlay</span>
+    </a>
+    <nav class="menu" aria-label="Primary">
+      <a href="#" class="menu-link" data-view="home">Home</a>
+      <a href="#" class="menu-link" data-view="products">Products</a>
+      <a href="#" class="menu-link" data-view="contact">Contact</a>
+      <a href="#" class="menu-link" data-view="about">About us</a>
+    </nav>
+  </header>
 
-<hr>
+  <!-- Main stage -->
+  <main class="stage">
 
+    <!-- HOME VIEW -->
+    <section class="view view-home active" data-view="home">
+      <div class="home-left">
+        <h1 class="hero-title">
+          PLAY.<br />
+          LEARN.<br />
+          <span class="accent">EXPLORE.</span>
+        </h1>
+        <p class="hero-sub">
+          VietGamePlay crafts playful mobile experiences from Da Nang, Vietnam —
+          casual games, simulations and learning apps designed to make every
+          tap a little more fun.
+        </p>
+        <button class="cta" data-view="products">Explore our games →</button>
+      </div>
+      <div class="home-right" aria-hidden="true">
+        <div class="float-card card-a"></div>
+        <div class="float-card card-b"></div>
+        <div class="float-card card-c"></div>
+        <div class="float-controller"></div>
+        <div class="float-ring r1"></div>
+        <div class="float-ring r2"></div>
+      </div>
+    </section>
 
+    <!-- PRODUCTS VIEW -->
+    <section class="view view-products" data-view="products">
+      <div class="products-header">
+        <h2 class="view-title">Our Products</h2>
+        <div class="filter-pills" role="tablist" aria-label="Filter by platform">
+          <button class="pill active" data-filter="all" role="tab" aria-selected="true">All</button>
+          <button class="pill" data-filter="ios" role="tab" aria-selected="false">iOS</button>
+          <button class="pill" data-filter="android" role="tab" aria-selected="false">Android</button>
+        </div>
+      </div>
 
+      <!-- horizontal thumbnail strip -->
+      <div class="thumb-strip" role="tablist" aria-label="Game thumbnails">
+        <button class="thumb" data-slide="0" data-platform="ios" role="tab" aria-selected="true">
+          <img src="images/GoofyGoal.png" alt="Goofy Goal" />
+          <!-- <span class="thumb-caption">Goofy Goal</span> -->
+        </button>
+        <button class="thumb" data-slide="1" data-platform="ios android" role="tab">
+          <img src="images/CandleSimulation.png" alt="Candle Simulation" />
+          <!-- <span class="thumb-caption">Candle Simulation</span> -->
+        </button>
+        <button class="thumb" data-slide="2" data-platform="android" role="tab">
+          <img src="images/FastestVPN.png" alt="Fastest VPN" />
+          <!-- <span class="thumb-caption">Fastest VPN</span> -->
+        </button>
+        <button class="thumb" data-slide="3" data-platform="ios android" role="tab">
+          <img src="images/Sat-Hach-Lai-Xe.png" alt="Sát Hạch Lái Xe" />
+          <!-- <span class="thumb-caption">Sát Hạch Lái Xe</span> -->
+        </button>
+        <button class="thumb" data-slide="4" data-platform="ios android" role="tab">
+          <img src="images/Japanese-Alphabet.png" alt="Japanese Alphabet" />
+          <!-- <span class="thumb-caption">Japanese Alphabet</span> -->
+        </button>
+      </div>
 
+      <!-- big slider: top 3 -->
+      <div class="slider" aria-label="Featured games">
+        <button class="slider-arrow prev" aria-label="Previous">‹</button>
+        <div class="slides">
+          <article class="slide active" data-index="0">
+            <div class="slide-art">
+              <img src="images/GoofyGoal.png" alt="Goofy Goal" />
+            </div>
+            <div class="slide-info">
+              <span class="badge">iOS</span>
+              <h3>Goofy Goal</h3>
+              <p>A silly, physics-driven football party where every kick is a
+                punchline. Pick up and play, impossible to put down.</p>
+              <div class="store-row">
+                <a class="store appstore" href="#" aria-label="App Store">
+                  <span>App Store</span>
+                </a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" data-index="1">
+            <div class="slide-art">
+              <img src="images/CandleSimulation.png" alt="Candle Simulation" />
+            </div>
+            <div class="slide-info">
+              <span class="badge">iOS / Android</span>
+              <h3>Candle Simulation</h3>
+              <p>A tiny, calming candle in your pocket. Light it, watch it
+                flicker, and breathe. The most peaceful app on your phone.</p>
+              <div class="store-row">
+                <a class="store appstore" href="#" aria-label="App Store"><span>App Store</span></a>
+                <a class="store playstore" href="https://play.google.com/store/apps/details?id=com.vgp.games.candlesimulation&hl=vi" aria-label="Play Store"><span>Play Store</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" data-index="2">
+            <div class="slide-art">
+              <img src="images/FastestVPN.png" alt="Fastest VPN" />
+            </div>
+            <div class="slide-info">
+              <span class="badge">Mobile</span>
+              <h3>Fastest VPN</h3>
+              <p>Private, quick, no fuss. Fastest VPN keeps your connection
+                locked down while you game, stream and browse.</p>
+              <div class="store-row">
+                <a class="store playstore" href="https://play.google.com/store/apps/details?id=com.vietgameplay.fastestvpn&hl=vi" aria-label="Play Store"><span>Play Store</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" data-index="3">
+            <div class="slide-art">
+              <img src="images/Sat-Hach-Lai-Xe.png" alt="Fastest VPN" />
+            </div>
+            <div class="slide-info">
+              <span class="badge">Mobile</span>
+              <h3>Sát Hạch Lái Xe</h3>
+              <p>Private, quick, no fuss. Fastest VPN keeps your connection
+                locked down while you game, stream and browse.</p>
+              <div class="store-row">
+                <a class="store playstore" target="_blank" rel="noopener noreferrer" href="https://play.google.com/store/apps/details?id=com.vgp.shlx" aria-label="Play Store"><span>Play Store</span></a>
+                <a class="store appstore" href="https://apps.apple.com/app/idXXXXXXXXX" aria-label="App Store"><span>App Store</span></a>
+                <a class="store website" href="https://sathachlaixe.org" aria-label="Website"><span>Website</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="slide" data-index="3">
+            <div class="slide-art">
+              <img src="images/Japanese-Alphabet.png" alt="Japanese Alphabet" />
+            </div>
+            <div class="slide-info">
+              <span class="badge">Mobile</span>
+              <h3>Japanese Alphabet</h3>
+              <p>Private, quick, no fuss. Fastest VPN keeps your connection
+                locked down while you game, stream and browse.</p>
+              <div class="store-row">
+                <a class="store playstore" href="https://play.google.com/store/apps/details?id=com.vgp.japanesealphabet&hl=vi" aria-label="PlayStore"><span>Play Store</span></a>
+                <a class="store appstore" href="https://play.google.com/store/apps/details?id=com.vgp.japanesealphabet&hl=vi" aria-label="AppStore"><span>AppStore</span></a>
+              </div>
+            </div>
+          </article>
+        </div>
+        <button class="slider-arrow next" aria-label="Next">›</button>
+
+        <div class="dots" aria-hidden="true">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT VIEW -->
+    <section class="view view-contact" data-view="contact">
+      <div class="contact-card">
+        <h2 class="view-title">Say hello.</h2>
+        <p class="contact-lede">
+          Press, partnerships, feedback, or a good joke — we read everything.
+        </p>
+        <a class="cta big" href="mailto:vietgameplay@gmail.com?subject=Hello%20VietGamePlay">
+          ✉ &nbsp;Email us
+        </a>
+        <p class="contact-email">vietgameplay@gmail.com</p>
+      </div>
+    </section>
+
+    <!-- ABOUT VIEW -->
+    <section class="view view-about" data-view="about">
+      <div class="about-card">
+        <h2 class="view-title">About us</h2>
+        <p class="about-lede">
+          VietGamePlay is a small independent studio based in Da Nang,
+          Vietnam. We build playful, bite-sized mobile experiences — games
+          you open for a minute and somehow keep around for years.
+        </p>
+        <div class="founder">
+          <div class="founder-avatar" aria-hidden="true">?</div>
+          <div>
+            <div class="founder-label">Founder</div>
+            <div class="founder-name">Anonymous</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer (always visible) -->
+  <footer class="footer">
+    <div class="foot-group socials">
+      <a class="social" href="#" aria-label="Facebook">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M13 22v-8h3l1-4h-4V7.5c0-1.2.3-2 2-2h2V2.2C16.6 2.1 15.4 2 14.1 2 11.4 2 9.6 3.6 9.6 6.7V10H6v4h3.6v8z"/></svg>
+        <span>Facebook</span>
+      </a>
+      <a class="social" href="#" aria-label="X">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2H21.5l-7.49 8.56L22.5 22h-6.77l-5.3-6.93L4.25 22H1l8-9.14L1.5 2h6.93l4.79 6.33L18.244 2zm-1.19 18h1.87L7.03 4H5.07l11.98 16z"/></svg>
+        <span>X</span>
+      </a>
+      <a class="social" href="#" aria-label="TikTok">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M20 8.4a7.3 7.3 0 0 1-4.3-1.4v7.6a5.6 5.6 0 1 1-4.8-5.5v2.8a2.8 2.8 0 1 0 2 2.7V2h2.8a4.4 4.4 0 0 0 4.3 3.6z"/></svg>
+        <span>TikTok</span>
+      </a>
+      <a class="social" href="#" aria-label="YouTube">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 7.3s-.2-1.6-.9-2.3c-.9-.9-1.8-.9-2.3-1C16.5 3.7 12 3.7 12 3.7s-4.5 0-7.8.3c-.5.1-1.5.1-2.3 1C1.2 5.7 1 7.3 1 7.3S.8 9.2.8 11v1.8c0 1.8.2 3.7.2 3.7s.2 1.6.9 2.3c.9.9 2.1.9 2.6 1C6.5 20 12 20.1 12 20.1s4.5 0 7.8-.3c.5-.1 1.4-.1 2.3-1 .7-.7.9-2.3.9-2.3s.2-1.9.2-3.7V11c0-1.8-.2-3.7-.2-3.7zM9.7 14.7V8.3l6 3.2-6 3.2z"/></svg>
+        <span>YouTube</span>
+      </a>
+    </div>
+
+    <div class="foot-group middle">
+      <div class="foot-line">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="ic"><path d="M12 2a7 7 0 0 0-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 0 0-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+        Da Nang, Viet Nam
+      </div>
+      <a class="foot-line" href="mailto:vietgameplay@gmail.com">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="ic"><path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5-8-5V6l8 5 8-5z"/></svg>
+        vietgameplay@gmail.com
+      </a>
+    </div>
+
+    <div class="foot-group stores">
+      <a class="store appstore" href="https://apps.apple.com/us/developer/nguyen-vu/id864211835" aria-label="Download on the App Store">
+        <svg viewBox="0 0 24 24" fill="currentColor" class="ic"><path d="M17.05 20.28c-.98.95-2.05.8-3.08.37-1.09-.46-2.09-.48-3.24 0-1.45.61-2.22.44-3.08-.37C2.79 15.25 3.51 7.58 9.05 7.29c1.35.07 2.3.74 3.08.8 1.17-.22 2.29-.92 3.56-.84 1.52.12 2.67.72 3.43 1.82-3.17 1.91-2.42 6.1.42 7.26-.57 1.49-1.31 2.97-2.49 3.95zM12.03 7.25c-.15-2.23 1.66-4.07 3.74-4.25.29 2.58-2.34 4.5-3.74 4.25z"/></svg>
+        <span class="store-small">Download on the</span>
+        <span class="store-big">App Store</span>
+      </a>
+      <a class="store playstore" href="https://play.google.com/store/apps/developer?id=VietGamePlay" aria-label="Get it on Play Store">
+        <svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" x="0" y="0" viewBox="0 0 511 512" style="enable-background:new 0 0 512 512" xml:space="preserve" class=""><g transform="matrix(0.9999999999999989,0,0,0.9999999999999989,4.547473508864641e-13,1.1368683772161603e-13)"><path d="M9.938 18.855C3.875 26.867.5 36.723.5 47.27v417.453c0 9.797 2.922 19 8.2 26.687l227.14-236.922zM256.637 232.793l73.687-76.86L71.304 6.392C60.064-.102 47.165-1.641 35.13 1.742zM256.637 276.18 32.89 509.562A46.46 46.46 0 0 0 47.703 512c8.106 0 16.215-2.133 23.602-6.398L332.188 354.98zM432.828 215.117l-75.726-43.722-79.664 83.09 81.523 85.038 73.867-42.648c14.781-8.531 23.606-23.816 23.606-40.879 0-17.066-8.825-32.348-23.606-40.879zm0 0" fill="#ffffff" opacity="1" data-original="#ffffff" class=""></path></g></svg>
+        <span class="store-small">Get it on</span>
+        <span class="store-big">Play Store</span>
+      </a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
-
 </html>
