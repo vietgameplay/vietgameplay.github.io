@@ -3,38 +3,225 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Terms of Service - Clean AI</title>
+    <title>Terms of Service & EULA</title>
     <style>
-        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 40px auto; padding: 0 20px; }
-        h1 { color: #007AFF; }
-        h2 { border-bottom: 1px solid #eee; padding-bottom: 10px; margin-top: 30px; }
-        .footer { font-size: 0.8em; color: #777; margin-top: 50px; }
+        :root {
+            --primary-color: #2563eb;
+            --text-color: #1f2937;
+            --light-text: #4b5563;
+            --bg-color: #f9fafb;
+            --card-bg: #ffffff;
+            --border-color: #e5e7eb;
+            --accent-bg: #eff6ff;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            border: 1px solid var(--border-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            color: #111827;
+            margin-bottom: 10px;
+            border-bottom: 2px solid var(--border-color);
+            padding-bottom: 15px;
+        }
+
+        h2 {
+            font-size: 1.4rem;
+            color: #111827;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            padding-left: 10px;
+            border-left: 4px solid var(--primary-color);
+        }
+
+        p, ul {
+            color: var(--light-text);
+            margin-bottom: 1.5em;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 0.5em;
+        }
+
+        .date {
+            font-style: italic;
+            color: #9ca3af;
+            margin-bottom: 30px;
+        }
+
+        .plans-container {
+            margin: 25px 0;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .plan-row {
+            padding: 20px;
+            background: var(--card-bg);
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        .plan-row:last-child {
+            border-bottom: none;
+        }
+
+        .plan-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-weight: bold;
+            color: #111827;
+            margin-bottom: 5px;
+        }
+
+        .plan-price {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+        }
+
+        .plan-desc {
+            font-size: 0.95rem;
+            color: var(--light-text);
+            margin: 0;
+        }
+
+        .badge {
+            background-color: #d1fae5;
+            color: #065f46;
+            padding: 2px 8px;
+            border-radius: 9999px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+
+        .important-box {
+            background-color: var(--accent-bg);
+            border: 1px solid #bfdbfe;
+            padding: 15px 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+        }
+
+        .important-box p {
+            margin: 0;
+            color: #1e3a8a;
+            font-size: 0.95rem;
+        }
+
+        footer {
+            margin-top: 40px;
+            text-align: center;
+            font-size: 0.85rem;
+            color: #9ca3af;
+        }
     </style>
 </head>
 <body>
-    <h1>Terms of Service</h1>
-    <p>Last Updated: May 12, 2026</p>
 
-    <p>Welcome to <strong>Clean AI</strong>. By downloading or using our app, you agree to these terms. Please read them carefully.</p>
+<div class="container">
+    <h1>End User License Agreement (EULA) & Terms of Service</h1>
+    <div class="date">Last Updated: May 21, 2026</div>
 
-    <h2>1. Use of Service</h2>
-    <p>Clean AI provides tools to help you identify and delete duplicate, large, or similar photos. You understand that the final decision to delete any content rests solely with you. Once photos are deleted from the system "Recently Deleted" folder, they may be unrecoverable.</p>
+    <p>Welcome to <strong>CleanAI - Photos Cleaner</strong> (the "Application"). This End User License Agreement and Terms of Service ("Agreement") is a legal agreement between you ("User" or "you") and <strong>VietGamePlay</strong> ("we," "us," or "our") governing your use of the Application downloaded from the Apple App Store.</p>
 
-    <h2>2. Subscriptions & Payments</h2>
+    <p>By downloading, installing, or using the Application, you agree to be bound by the terms of this Agreement. If you do not agree, do not download or use the Application.</p>
+
+    <h2>1. Scope of License</h2>
+    <p>We grant you a revocable, non-exclusive, non-transferable, limited license to download, install, and use the Application on any Apple-branded devices that you own or control, as permitted by the Usage Rules set forth in the Apple Media Services Terms and Conditions.</p>
+
+    <h2>2. Subscription Services & Pricing</h2>
+    <p>The Application offers premium features and content via auto-renewable subscription tiers ("Premium Access"). By subscribing, you gain full access to all premium features of the Application.</p>
+
+    <div class="plans-container">
+        <div class="plan-row">
+            <div class="plan-header">
+                <span>Monthly Premium Access</span>
+                <span class="plan-price">$2.99 / month</span>
+            </div>
+            <p class="plan-desc">Full access, billed month-to-month.</p>
+        </div>
+        <div class="plan-row">
+            <div class="plan-header">
+                <span>Semi-Annual Premium <span class="badge">Save 15%</span></span>
+                <span class="plan-price">$14.99 / 6 months</span>
+            </div>
+            <p class="plan-desc">Full access for 6 months.</p>
+        </div>
+    </div>
+
+    <h2>3. Auto-Renewal and Billing</h2>
+    <p>All purchases are processed securely via Apple In-App Purchases.</p>
     <ul>
-        <li>Some features require a premium subscription.</li>
-        <li>Payments are processed via your Apple ID account.</li>
-        <li>Subscriptions renew automatically unless canceled at least 24 hours before the end of the current period.</li>
+        <li><strong>Billing:</strong> Subscription payments will be charged to your Apple ID account at the confirmation of purchase.</li>
+        <li><strong>Automatic Renewal:</strong> Subscriptions <strong>automatically renew</strong> unless auto-renew is turned off at least <strong>24 hours</strong> before the end of the current billing period.</li>
+        <li><strong>Renewal Charges:</strong> Your account will be charged for renewal within 24 hours prior to the end of the current period, at the cost of your selected plan ($2.99 for Monthly or $14.99 for Semi-Annual).</li>
     </ul>
 
-    <h2>3. User Responsibility</h2>
-    <p>You are responsible for maintaining backups of important data. Clean AI is not liable for the accidental loss of photos resulting from user error or software malfunction.</p>
-
-    <h2>4. Limitation of Liability</h2>
-    <p>Clean AI is provided "as is" without any warranties. We are not responsible for any data loss or hardware damage arising from the use of the application.</p>
-
-    <div class="footer">
-        <p>Contact: vietgameplay@gmail.com</p>
+    <h2>4. Managing Subscriptions and Cancellations</h2>
+    <p>You can manage your subscriptions, change plans, or turn off auto-renewal at any time after purchase by going to your <strong>Account Settings on the App Store</strong> or your iPhone/iPad system settings.</p>
+    
+    <div class="important-box">
+        <p><strong>Note on Deletion:</strong> Uninstalling or deleting the application does not automatically cancel your subscription. You must actively cancel the subscription in your Apple Account Settings to prevent future billings. Refunds are handled exclusively by Apple and are subject to Apple’s refund policy.</p>
     </div>
+
+    <h2>5. Privacy Policy</h2>
+    <p>Your privacy is important to us. Please review our Privacy Policy at <a href="https://vietgameplay.com/cleanai/privacy.html">https://vietgameplay.com/cleanai/privacy.html</a> to understand how we collect, use, and protect your data.</p>
+
+    <h2>6. Prohibited Conduct</h2>
+    <p>You agree not to:</p>
+    <ul>
+        <li>Decompile, reverse engineer, or disassemble the Application.</li>
+        <li>Use the Application for any illegal, unauthorized, or fraudulent purpose.</li>
+        <li>Circumvent, bypass, or attempt to defeat any security features or digital rights management within the application.</li>
+    </ul>
+
+    <h2>7. Limitation of Liability & Warranties</h2>
+    <ul>
+        <li><strong>"As Is" Basis:</strong> The Application is provided "as is" and "as available" without warranties of any kind, either express or implied.</li>
+        <li><strong>Limitation of Liability:</strong> To the maximum extent permitted by applicable law, VietGamePlay shall not be liable for any indirect, incidental, or consequential damages arising out of your use or inability to use the Application.</li>
+    </ul>
+
+    <h2>8. Apple as a Third-Party Beneficiary</h2>
+    <p>You acknowledge and agree that Apple, and Apple’s subsidiaries, are third-party beneficiaries of this Agreement. Upon your acceptance of these terms, Apple will have the right (and will be deemed to have accepted the right) to enforce this Agreement against you as a third-party beneficiary.</p>
+
+    <h2>9. Governing Law</h2>
+    <p>This Agreement is governed by the laws of [Insert Your State/Country], without regard to its conflict of law principles.</p>
+
+    <h2>10. Contact Information</h2>
+    <p>If you have any questions, complaints, or claims regarding the Application, please contact us at:</p>
+    <ul>
+        <li>Email: <a href="mailto:vietgameplay@gmail.com">vietgameplay@gmail.com</a></li>
+        <li>Website: <a href="https://vietgameplay.com" target="_blank">https://vietgameplay.com</a></li>
+    </ul>
+</div>
+
+<footer>
+    &copy; 2026 VietGamePlay. All rights reserved.
+</footer>
+
 </body>
 </html>
