@@ -1,153 +1,153 @@
-car	AL	Alabama	https://files.driving-tests.org/premium/pdf/handbook/CAR/al.car.en.pdf
-car	AK	Alaska	https://files.driving-tests.org/premium/pdf/handbook/CAR/ak.car.en.pdf
-car	AZ	Arizona	https://files.driving-tests.org/premium/pdf/handbook/CAR/az.car.en.pdf
-car	AR	Arkansas	https://files.driving-tests.org/premium/pdf/handbook/CAR/ar.car.en.pdf
-car	CA	California	https://files.driving-tests.org/premium/pdf/handbook/CAR/ca.car.en.pdf
-car	CO	Colorado	https://files.driving-tests.org/premium/pdf/handbook/CAR/co.car.en.pdf
-car	CT	Connecticut	https://files.driving-tests.org/premium/pdf/handbook/CAR/ct.car.en.pdf
-car	DE	Delaware	https://files.driving-tests.org/premium/pdf/handbook/CAR/de.car.en.pdf
-car	DC	District of Columbia	https://files.driving-tests.org/premium/pdf/handbook/CAR/dc.car.en.pdf
-car	FL	Florida	https://files.driving-tests.org/premium/pdf/handbook/CAR/fl.car.en.pdf
-car	GA	Georgia	https://files.driving-tests.org/premium/pdf/handbook/CAR/ga.car.en.pdf
-car	HI	Hawaii	https://files.driving-tests.org/premium/pdf/handbook/CAR/hi.car.en.pdf
-car	ID	Idaho	https://files.driving-tests.org/premium/pdf/handbook/CAR/id.car.en.pdf
-car	IL	Illinois	https://files.driving-tests.org/premium/pdf/handbook/CAR/il.car.en.pdf
-car	IN	Indiana	https://files.driving-tests.org/premium/pdf/handbook/CAR/in.car.en.pdf
-car	IA	Iowa	https://files.driving-tests.org/premium/pdf/handbook/CAR/ia.car.en.pdf
-car	KS	Kansas	https://files.driving-tests.org/premium/pdf/handbook/CAR/ks.car.en.pdf
-car	KY	Kentucky	https://files.driving-tests.org/premium/pdf/handbook/CAR/ky.car.en.pdf
-car	LA	Louisiana	https://files.driving-tests.org/premium/pdf/handbook/CAR/la.car.en.pdf
-car	ME	Maine	https://files.driving-tests.org/premium/pdf/handbook/CAR/me.car.en.pdf
-car	MD	Maryland	https://files.driving-tests.org/premium/pdf/handbook/CAR/md.car.en.pdf
-car	MA	Massachusetts	https://files.driving-tests.org/premium/pdf/handbook/CAR/ma.car.en.pdf
-car	MI	Michigan	https://files.driving-tests.org/premium/pdf/handbook/CAR/mi.car.en.pdf
-car	MN	Minnesota	https://files.driving-tests.org/premium/pdf/handbook/CAR/mn.car.en.pdf
-car	MS	Mississippi	https://files.driving-tests.org/premium/pdf/handbook/CAR/ms.car.en.pdf
-car	MO	Missouri	https://files.driving-tests.org/premium/pdf/handbook/CAR/mo.car.en.pdf
-car	MT	Montana	https://files.driving-tests.org/premium/pdf/handbook/CAR/mt.car.en.pdf
-car	NE	Nebraska	https://files.driving-tests.org/premium/pdf/handbook/CAR/ne.car.en.pdf
-car	NV	Nevada	https://files.driving-tests.org/premium/pdf/handbook/CAR/nv.car.en.pdf
-car	NH	New Hampshire	https://files.driving-tests.org/premium/pdf/handbook/CAR/nh.car.en.pdf
-car	NJ	New Jersey	https://files.driving-tests.org/premium/pdf/handbook/CAR/nj.car.en.pdf
-car	NM	New Mexico	https://files.driving-tests.org/premium/pdf/handbook/CAR/nm.car.en.pdf
-car	NY	New York	https://files.driving-tests.org/premium/pdf/handbook/CAR/ny.car.en.pdf
-car	NC	North Carolina	https://files.driving-tests.org/premium/pdf/handbook/CAR/nc.car.en.pdf
-car	ND	North Dakota	https://files.driving-tests.org/premium/pdf/handbook/CAR/nd.car.en.pdf
-car	OH	Ohio	https://files.driving-tests.org/premium/pdf/handbook/CAR/oh.car.en.pdf
-car	OK	Oklahoma	https://files.driving-tests.org/premium/pdf/handbook/CAR/ok.car.en.pdf
-car	OR	Oregon	https://files.driving-tests.org/premium/pdf/handbook/CAR/or.car.en.pdf
-car	PA	Pennsylvania	https://files.driving-tests.org/premium/pdf/handbook/CAR/pa.car.en.pdf
-car	RI	Rhode Island	https://files.driving-tests.org/premium/pdf/handbook/CAR/ri.car.en.pdf
-car	SC	South Carolina	https://files.driving-tests.org/premium/pdf/handbook/CAR/sc.car.en.pdf
-car	SD	South Dakota	https://files.driving-tests.org/premium/pdf/handbook/CAR/sd.car.en.pdf
-car	TN	Tennessee	https://files.driving-tests.org/premium/pdf/handbook/CAR/tn.car.en.pdf
-car	TX	Texas	https://files.driving-tests.org/premium/pdf/handbook/CAR/tx.car.en.pdf
-car	UT	Utah	https://files.driving-tests.org/premium/pdf/handbook/CAR/ut.car.en.pdf
-car	VT	Vermont	https://files.driving-tests.org/premium/pdf/handbook/CAR/vt.car.en.pdf
-car	VA	Virginia	https://files.driving-tests.org/premium/pdf/handbook/CAR/va.car.en.pdf
-car	WA	Washington	https://files.driving-tests.org/premium/pdf/handbook/CAR/wa.car.en.pdf
-car	WV	West Virginia	https://files.driving-tests.org/premium/pdf/handbook/CAR/wv.car.en.pdf
-car	WI	Wisconsin	https://files.driving-tests.org/premium/pdf/handbook/CAR/wi.car.en.pdf
-car	WY	Wyoming	https://files.driving-tests.org/premium/pdf/handbook/CAR/wy.car.en.pdf
-moto	AL	Alabama	https://files.driving-tests.org/premium/pdf/handbook/MOTO/al.moto.en.pdf
-moto	AK	Alaska	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ak.moto.en.pdf
-moto	AZ	Arizona	https://files.driving-tests.org/premium/pdf/handbook/MOTO/az.moto.en.pdf
-moto	AR	Arkansas	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ar.moto.en.pdf
-moto	CA	California	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ca.moto.en.pdf
-moto	CO	Colorado	https://files.driving-tests.org/premium/pdf/handbook/MOTO/co.moto.en.pdf
-moto	CT	Connecticut	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ct.moto.en.pdf
-moto	DE	Delaware	https://files.driving-tests.org/premium/pdf/handbook/MOTO/de.moto.en.pdf
-moto	DC	District of Columbia	https://files.driving-tests.org/premium/pdf/handbook/MOTO/dc.moto.en.pdf
-moto	FL	Florida	https://files.driving-tests.org/premium/pdf/handbook/MOTO/fl.moto.en.pdf
-moto	GA	Georgia	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ga.moto.en.pdf
-moto	HI	Hawaii	https://files.driving-tests.org/premium/pdf/handbook/MOTO/hi.moto.en.pdf
-moto	ID	Idaho	https://files.driving-tests.org/premium/pdf/handbook/MOTO/id.moto.en.pdf
-moto	IL	Illinois	https://files.driving-tests.org/premium/pdf/handbook/MOTO/il.moto.en.pdf
-moto	IN	Indiana	https://files.driving-tests.org/premium/pdf/handbook/MOTO/in.moto.en.pdf
-moto	IA	Iowa	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ia.moto.en.pdf
-moto	KS	Kansas	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ks.moto.en.pdf
-moto	KY	Kentucky	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ky.moto.en.pdf
-moto	LA	Louisiana	https://files.driving-tests.org/premium/pdf/handbook/MOTO/la.moto.en.pdf
-moto	ME	Maine	https://files.driving-tests.org/premium/pdf/handbook/MOTO/me.moto.en.pdf
-moto	MD	Maryland	https://files.driving-tests.org/premium/pdf/handbook/MOTO/md.moto.en.pdf
-moto	MA	Massachusetts	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ma.moto.en.pdf
-moto	MI	Michigan	https://files.driving-tests.org/premium/pdf/handbook/MOTO/mi.moto.en.pdf
-moto	MN	Minnesota	https://files.driving-tests.org/premium/pdf/handbook/MOTO/mn.moto.en.pdf
-moto	MS	Mississippi	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ms.moto.en.pdf
-moto	MO	Missouri	https://files.driving-tests.org/premium/pdf/handbook/MOTO/mo.moto.en.pdf
-moto	MT	Montana	https://files.driving-tests.org/premium/pdf/handbook/MOTO/mt.moto.en.pdf
-moto	NE	Nebraska	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ne.moto.en.pdf
-moto	NV	Nevada	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nv.moto.en.pdf
-moto	NH	New Hampshire	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nh.moto.en.pdf
-moto	NJ	New Jersey	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nj.moto.en.pdf
-moto	NM	New Mexico	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nm.moto.en.pdf
-moto	NY	New York	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ny.moto.en.pdf
-moto	NC	North Carolina	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nc.moto.en.pdf
-moto	ND	North Dakota	https://files.driving-tests.org/premium/pdf/handbook/MOTO/nd.moto.en.pdf
-moto	OH	Ohio	https://files.driving-tests.org/premium/pdf/handbook/MOTO/oh.moto.en.pdf
-moto	OK	Oklahoma	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ok.moto.en.pdf
-moto	OR	Oregon	https://files.driving-tests.org/premium/pdf/handbook/MOTO/or.moto.en.pdf
-moto	PA	Pennsylvania	https://files.driving-tests.org/premium/pdf/handbook/MOTO/pa.moto.en.pdf
-moto	RI	Rhode Island	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ri.moto.en.pdf
-moto	SC	South Carolina	https://files.driving-tests.org/premium/pdf/handbook/MOTO/sc.moto.en.pdf
-moto	SD	South Dakota	https://files.driving-tests.org/premium/pdf/handbook/MOTO/sd.moto.en.pdf
-moto	TN	Tennessee	https://files.driving-tests.org/premium/pdf/handbook/MOTO/tn.moto.en.pdf
-moto	TX	Texas	https://files.driving-tests.org/premium/pdf/handbook/MOTO/tx.moto.en.pdf
-moto	UT	Utah	https://files.driving-tests.org/premium/pdf/handbook/MOTO/ut.moto.en.pdf
-moto	VT	Vermont	https://files.driving-tests.org/premium/pdf/handbook/MOTO/vt.moto.en.pdf
-moto	VA	Virginia	https://files.driving-tests.org/premium/pdf/handbook/MOTO/va.moto.en.pdf
-moto	WA	Washington	https://files.driving-tests.org/premium/pdf/handbook/MOTO/wa.moto.en.pdf
-moto	WV	West Virginia	https://files.driving-tests.org/premium/pdf/handbook/MOTO/wv.moto.en.pdf
-moto	WI	Wisconsin	https://files.driving-tests.org/premium/pdf/handbook/MOTO/wi.moto.en.pdf
-moto	WY	Wyoming	https://files.driving-tests.org/premium/pdf/handbook/MOTO/wy.moto.en.pdf
-cdl	AL	Alabama	https://files.driving-tests.org/premium/pdf/handbook/CDL/al.cdl.en.pdf
-cdl	AK	Alaska	https://files.driving-tests.org/premium/pdf/handbook/CDL/ak.cdl.en.pdf
-cdl	AZ	Arizona	https://files.driving-tests.org/premium/pdf/handbook/CDL/az.cdl.en.pdf
-cdl	AR	Arkansas	https://files.driving-tests.org/premium/pdf/handbook/CDL/ar.cdl.en.pdf
-cdl	CA	California	https://files.driving-tests.org/premium/pdf/handbook/CDL/ca.cdl.en.pdf
-cdl	CO	Colorado	https://files.driving-tests.org/premium/pdf/handbook/CDL/co.cdl.en.pdf
-cdl	CT	Connecticut	https://files.driving-tests.org/premium/pdf/handbook/CDL/ct.cdl.en.pdf
-cdl	DE	Delaware	https://files.driving-tests.org/premium/pdf/handbook/CDL/de.cdl.en.pdf
-cdl	DC	District of Columbia	https://files.driving-tests.org/premium/pdf/handbook/CDL/dc.cdl.en.pdf
-cdl	FL	Florida	https://files.driving-tests.org/premium/pdf/handbook/CDL/fl.cdl.en.pdf
-cdl	GA	Georgia	https://files.driving-tests.org/premium/pdf/handbook/CDL/ga.cdl.en.pdf
-cdl	HI	Hawaii	https://files.driving-tests.org/premium/pdf/handbook/CDL/hi.cdl.en.pdf
-cdl	ID	Idaho	https://files.driving-tests.org/premium/pdf/handbook/CDL/id.cdl.en.pdf
-cdl	IL	Illinois	https://files.driving-tests.org/premium/pdf/handbook/CDL/il.cdl.en.pdf
-cdl	IN	Indiana	https://files.driving-tests.org/premium/pdf/handbook/CDL/in.cdl.en.pdf
-cdl	IA	Iowa	https://files.driving-tests.org/premium/pdf/handbook/CDL/ia.cdl.en.pdf
-cdl	KS	Kansas	https://files.driving-tests.org/premium/pdf/handbook/CDL/ks.cdl.en.pdf
-cdl	KY	Kentucky	https://files.driving-tests.org/premium/pdf/handbook/CDL/ky.cdl.en.pdf
-cdl	LA	Louisiana	https://files.driving-tests.org/premium/pdf/handbook/CDL/la.cdl.en.pdf
-cdl	ME	Maine	https://files.driving-tests.org/premium/pdf/handbook/CDL/me.cdl.en.pdf
-cdl	MD	Maryland	https://files.driving-tests.org/premium/pdf/handbook/CDL/md.cdl.en.pdf
-cdl	MA	Massachusetts	https://files.driving-tests.org/premium/pdf/handbook/CDL/ma.cdl.en.pdf
-cdl	MI	Michigan	https://files.driving-tests.org/premium/pdf/handbook/CDL/mi.cdl.en.pdf
-cdl	MN	Minnesota	https://files.driving-tests.org/premium/pdf/handbook/CDL/mn.cdl.en.pdf
-cdl	MS	Mississippi	https://files.driving-tests.org/premium/pdf/handbook/CDL/ms.cdl.en.pdf
-cdl	MO	Missouri	https://files.driving-tests.org/premium/pdf/handbook/CDL/mo.cdl.en.pdf
-cdl	MT	Montana	https://files.driving-tests.org/premium/pdf/handbook/CDL/mt.cdl.en.pdf
-cdl	NE	Nebraska	https://files.driving-tests.org/premium/pdf/handbook/CDL/ne.cdl.en.pdf
-cdl	NV	Nevada	https://files.driving-tests.org/premium/pdf/handbook/CDL/nv.cdl.en.pdf
-cdl	NH	New Hampshire	https://files.driving-tests.org/premium/pdf/handbook/CDL/nh.cdl.en.pdf
-cdl	NJ	New Jersey	https://files.driving-tests.org/premium/pdf/handbook/CDL/nj.cdl.en.pdf
-cdl	NM	New Mexico	https://files.driving-tests.org/premium/pdf/handbook/CDL/nm.cdl.en.pdf
-cdl	NY	New York	https://files.driving-tests.org/premium/pdf/handbook/CDL/ny.cdl.en.pdf
-cdl	NC	North Carolina	https://files.driving-tests.org/premium/pdf/handbook/CDL/nc.cdl.en.pdf
-cdl	ND	North Dakota	https://files.driving-tests.org/premium/pdf/handbook/CDL/nd.cdl.en.pdf
-cdl	OH	Ohio	https://files.driving-tests.org/premium/pdf/handbook/CDL/oh.cdl.en.pdf
-cdl	OK	Oklahoma	https://files.driving-tests.org/premium/pdf/handbook/CDL/ok.cdl.en.pdf
-cdl	OR	Oregon	https://files.driving-tests.org/premium/pdf/handbook/CDL/or.cdl.en.pdf
-cdl	PA	Pennsylvania	https://files.driving-tests.org/premium/pdf/handbook/CDL/pa.cdl.en.pdf
-cdl	RI	Rhode Island	https://files.driving-tests.org/premium/pdf/handbook/CDL/ri.cdl.en.pdf
-cdl	SC	South Carolina	https://files.driving-tests.org/premium/pdf/handbook/CDL/sc.cdl.en.pdf
-cdl	SD	South Dakota	https://files.driving-tests.org/premium/pdf/handbook/CDL/sd.cdl.en.pdf
-cdl	TN	Tennessee	https://files.driving-tests.org/premium/pdf/handbook/CDL/tn.cdl.en.pdf
-cdl	TX	Texas	https://files.driving-tests.org/premium/pdf/handbook/CDL/tx.cdl.en.pdf
-cdl	UT	Utah	https://files.driving-tests.org/premium/pdf/handbook/CDL/ut.cdl.en.pdf
-cdl	VT	Vermont	https://files.driving-tests.org/premium/pdf/handbook/CDL/vt.cdl.en.pdf
-cdl	VA	Virginia	https://files.driving-tests.org/premium/pdf/handbook/CDL/va.cdl.en.pdf
-cdl	WA	Washington	https://files.driving-tests.org/premium/pdf/handbook/CDL/wa.cdl.en.pdf
-cdl	WV	West Virginia	https://files.driving-tests.org/premium/pdf/handbook/CDL/wv.cdl.en.pdf
-cdl	WI	Wisconsin	https://files.driving-tests.org/premium/pdf/handbook/CDL/wi.cdl.en.pdf
-cdl	WY	Wyoming	https://files.driving-tests.org/premium/pdf/handbook/CDL/wy.cdl.en.pdf
+car	AL	Alabama	https://vietgameplay.com/dmv/handbooks/car/AL_Alabama_car_handbook_en.pdf
+car	AK	Alaska	https://vietgameplay.com/dmv/handbooks/car/AK_Alaska_car_handbook_en.pdf
+car	AZ	Arizona	https://vietgameplay.com/dmv/handbooks/car/AZ_Arizona_car_handbook_en.pdf
+car	AR	Arkansas	https://vietgameplay.com/dmv/handbooks/car/AR_Arkansas_car_handbook_en.pdf
+car	CA	California	https://vietgameplay.com/dmv/handbooks/car/CA_California_car_handbook_en.pdf
+car	CO	Colorado	https://vietgameplay.com/dmv/handbooks/car/CO_Colorado_car_handbook_en.pdf
+car	CT	Connecticut	https://vietgameplay.com/dmv/handbooks/car/CT_Connecticut_car_handbook_en.pdf
+car	DE	Delaware	https://vietgameplay.com/dmv/handbooks/car/DE_Delaware_car_handbook_en.pdf
+car	DC	District of Columbia	https://vietgameplay.com/dmv/handbooks/car/DC_District_of_Columbia_car_handbook_en.pdf
+car	FL	Florida	https://vietgameplay.com/dmv/handbooks/car/FL_Florida_car_handbook_en.pdf
+car	GA	Georgia	https://vietgameplay.com/dmv/handbooks/car/GA_Georgia_car_handbook_en.pdf
+car	HI	Hawaii	https://vietgameplay.com/dmv/handbooks/car/HI_Hawaii_car_handbook_en.pdf
+car	ID	Idaho	https://vietgameplay.com/dmv/handbooks/car/ID_Idaho_car_handbook_en.pdf
+car	IL	Illinois	https://vietgameplay.com/dmv/handbooks/car/IL_Illinois_car_handbook_en.pdf
+car	IN	Indiana	https://vietgameplay.com/dmv/handbooks/car/IN_Indiana_car_handbook_en.pdf
+car	IA	Iowa	https://vietgameplay.com/dmv/handbooks/car/IA_Iowa_car_handbook_en.pdf
+car	KS	Kansas	https://vietgameplay.com/dmv/handbooks/car/KS_Kansas_car_handbook_en.pdf
+car	KY	Kentucky	https://vietgameplay.com/dmv/handbooks/car/KY_Kentucky_car_handbook_en.pdf
+car	LA	Louisiana	https://vietgameplay.com/dmv/handbooks/car/LA_Louisiana_car_handbook_en.pdf
+car	ME	Maine	https://vietgameplay.com/dmv/handbooks/car/ME_Maine_car_handbook_en.pdf
+car	MD	Maryland	https://vietgameplay.com/dmv/handbooks/car/MD_Maryland_car_handbook_en.pdf
+car	MA	Massachusetts	https://vietgameplay.com/dmv/handbooks/car/MA_Massachusetts_car_handbook_en.pdf
+car	MI	Michigan	https://vietgameplay.com/dmv/handbooks/car/MI_Michigan_car_handbook_en.pdf
+car	MN	Minnesota	https://vietgameplay.com/dmv/handbooks/car/MN_Minnesota_car_handbook_en.pdf
+car	MS	Mississippi	https://vietgameplay.com/dmv/handbooks/car/MS_Mississippi_car_handbook_en.pdf
+car	MO	Missouri	https://vietgameplay.com/dmv/handbooks/car/MO_Missouri_car_handbook_en.pdf
+car	MT	Montana	https://vietgameplay.com/dmv/handbooks/car/MT_Montana_car_handbook_en.pdf
+car	NE	Nebraska	https://vietgameplay.com/dmv/handbooks/car/NE_Nebraska_car_handbook_en.pdf
+car	NV	Nevada	https://vietgameplay.com/dmv/handbooks/car/NV_Nevada_car_handbook_en.pdf
+car	NH	New Hampshire	https://vietgameplay.com/dmv/handbooks/car/NH_New_Hampshire_car_handbook_en.pdf
+car	NJ	New Jersey	https://vietgameplay.com/dmv/handbooks/car/NJ_New_Jersey_car_handbook_en.pdf
+car	NM	New Mexico	https://vietgameplay.com/dmv/handbooks/car/NM_New_Mexico_car_handbook_en.pdf
+car	NY	New York	https://vietgameplay.com/dmv/handbooks/car/NY_New_York_car_handbook_en.pdf
+car	NC	North Carolina	https://vietgameplay.com/dmv/handbooks/car/NC_North_Carolina_car_handbook_en.pdf
+car	ND	North Dakota	https://vietgameplay.com/dmv/handbooks/car/ND_North_Dakota_car_handbook_en.pdf
+car	OH	Ohio	https://vietgameplay.com/dmv/handbooks/car/OH_Ohio_car_handbook_en.pdf
+car	OK	Oklahoma	https://vietgameplay.com/dmv/handbooks/car/OK_Oklahoma_car_handbook_en.pdf
+car	OR	Oregon	https://vietgameplay.com/dmv/handbooks/car/OR_Oregon_car_handbook_en.pdf
+car	PA	Pennsylvania	https://vietgameplay.com/dmv/handbooks/car/PA_Pennsylvania_car_handbook_en.pdf
+car	RI	Rhode Island	https://vietgameplay.com/dmv/handbooks/car/RI_Rhode_Island_car_handbook_en.pdf
+car	SC	South Carolina	https://vietgameplay.com/dmv/handbooks/car/SC_South_Carolina_car_handbook_en.pdf
+car	SD	South Dakota	https://vietgameplay.com/dmv/handbooks/car/SD_South_Dakota_car_handbook_en.pdf
+car	TN	Tennessee	https://vietgameplay.com/dmv/handbooks/car/TN_Tennessee_car_handbook_en.pdf
+car	TX	Texas	https://vietgameplay.com/dmv/handbooks/car/TX_Texas_car_handbook_en.pdf
+car	UT	Utah	https://vietgameplay.com/dmv/handbooks/car/UT_Utah_car_handbook_en.pdf
+car	VT	Vermont	https://vietgameplay.com/dmv/handbooks/car/VT_Vermont_car_handbook_en.pdf
+car	VA	Virginia	https://vietgameplay.com/dmv/handbooks/car/VA_Virginia_car_handbook_en.pdf
+car	WA	Washington	https://vietgameplay.com/dmv/handbooks/car/WA_Washington_car_handbook_en.pdf
+car	WV	West Virginia	https://vietgameplay.com/dmv/handbooks/car/WV_West_Virginia_car_handbook_en.pdf
+car	WI	Wisconsin	https://vietgameplay.com/dmv/handbooks/car/WI_Wisconsin_car_handbook_en.pdf
+car	WY	Wyoming	https://vietgameplay.com/dmv/handbooks/car/WY_Wyoming_car_handbook_en.pdf
+moto	AL	Alabama	https://vietgameplay.com/dmv/handbooks/moto/AL_Alabama_moto_handbook_en.pdf
+moto	AK	Alaska	https://vietgameplay.com/dmv/handbooks/moto/AK_Alaska_moto_handbook_en.pdf
+moto	AZ	Arizona	https://vietgameplay.com/dmv/handbooks/moto/AZ_Arizona_moto_handbook_en.pdf
+moto	AR	Arkansas	https://vietgameplay.com/dmv/handbooks/moto/AR_Arkansas_moto_handbook_en.pdf
+moto	CA	California	https://vietgameplay.com/dmv/handbooks/moto/CA_California_moto_handbook_en.pdf
+moto	CO	Colorado	https://vietgameplay.com/dmv/handbooks/moto/CO_Colorado_moto_handbook_en.pdf
+moto	CT	Connecticut	https://vietgameplay.com/dmv/handbooks/moto/CT_Connecticut_moto_handbook_en.pdf
+moto	DE	Delaware	https://vietgameplay.com/dmv/handbooks/moto/DE_Delaware_moto_handbook_en.pdf
+moto	DC	District of Columbia	https://vietgameplay.com/dmv/handbooks/moto/DC_District_of_Columbia_moto_handbook_en.pdf
+moto	FL	Florida	https://vietgameplay.com/dmv/handbooks/moto/FL_Florida_moto_handbook_en.pdf
+moto	GA	Georgia	https://vietgameplay.com/dmv/handbooks/moto/GA_Georgia_moto_handbook_en.pdf
+moto	HI	Hawaii	https://vietgameplay.com/dmv/handbooks/moto/HI_Hawaii_moto_handbook_en.pdf
+moto	ID	Idaho	https://vietgameplay.com/dmv/handbooks/moto/ID_Idaho_moto_handbook_en.pdf
+moto	IL	Illinois	https://vietgameplay.com/dmv/handbooks/moto/IL_Illinois_moto_handbook_en.pdf
+moto	IN	Indiana	https://vietgameplay.com/dmv/handbooks/moto/IN_Indiana_moto_handbook_en.pdf
+moto	IA	Iowa	https://vietgameplay.com/dmv/handbooks/moto/IA_Iowa_moto_handbook_en.pdf
+moto	KS	Kansas	https://vietgameplay.com/dmv/handbooks/moto/KS_Kansas_moto_handbook_en.pdf
+moto	KY	Kentucky	https://vietgameplay.com/dmv/handbooks/moto/KY_Kentucky_moto_handbook_en.pdf
+moto	LA	Louisiana	https://vietgameplay.com/dmv/handbooks/moto/LA_Louisiana_moto_handbook_en.pdf
+moto	ME	Maine	https://vietgameplay.com/dmv/handbooks/moto/ME_Maine_moto_handbook_en.pdf
+moto	MD	Maryland	https://vietgameplay.com/dmv/handbooks/moto/MD_Maryland_moto_handbook_en.pdf
+moto	MA	Massachusetts	https://vietgameplay.com/dmv/handbooks/moto/MA_Massachusetts_moto_handbook_en.pdf
+moto	MI	Michigan	https://vietgameplay.com/dmv/handbooks/moto/MI_Michigan_moto_handbook_en.pdf
+moto	MN	Minnesota	https://vietgameplay.com/dmv/handbooks/moto/MN_Minnesota_moto_handbook_en.pdf
+moto	MS	Mississippi	https://vietgameplay.com/dmv/handbooks/moto/MS_Mississippi_moto_handbook_en.pdf
+moto	MO	Missouri	https://vietgameplay.com/dmv/handbooks/moto/MO_Missouri_moto_handbook_en.pdf
+moto	MT	Montana	https://vietgameplay.com/dmv/handbooks/moto/MT_Montana_moto_handbook_en.pdf
+moto	NE	Nebraska	https://vietgameplay.com/dmv/handbooks/moto/NE_Nebraska_moto_handbook_en.pdf
+moto	NV	Nevada	https://vietgameplay.com/dmv/handbooks/moto/NV_Nevada_moto_handbook_en.pdf
+moto	NH	New Hampshire	https://vietgameplay.com/dmv/handbooks/moto/NH_New_Hampshire_moto_handbook_en.pdf
+moto	NJ	New Jersey	https://vietgameplay.com/dmv/handbooks/moto/NJ_New_Jersey_moto_handbook_en.pdf
+moto	NM	New Mexico	https://vietgameplay.com/dmv/handbooks/moto/NM_New_Mexico_moto_handbook_en.pdf
+moto	NY	New York	https://vietgameplay.com/dmv/handbooks/moto/NY_New_York_moto_handbook_en.pdf
+moto	NC	North Carolina	https://vietgameplay.com/dmv/handbooks/moto/NC_North_Carolina_moto_handbook_en.pdf
+moto	ND	North Dakota	https://vietgameplay.com/dmv/handbooks/moto/ND_North_Dakota_moto_handbook_en.pdf
+moto	OH	Ohio	https://vietgameplay.com/dmv/handbooks/moto/OH_Ohio_moto_handbook_en.pdf
+moto	OK	Oklahoma	https://vietgameplay.com/dmv/handbooks/moto/OK_Oklahoma_moto_handbook_en.pdf
+moto	OR	Oregon	https://vietgameplay.com/dmv/handbooks/moto/OR_Oregon_moto_handbook_en.pdf
+moto	PA	Pennsylvania	https://vietgameplay.com/dmv/handbooks/moto/PA_Pennsylvania_moto_handbook_en.pdf
+moto	RI	Rhode Island	https://vietgameplay.com/dmv/handbooks/moto/RI_Rhode_Island_moto_handbook_en.pdf
+moto	SC	South Carolina	https://vietgameplay.com/dmv/handbooks/moto/SC_South_Carolina_moto_handbook_en.pdf
+moto	SD	South Dakota	https://vietgameplay.com/dmv/handbooks/moto/SD_South_Dakota_moto_handbook_en.pdf
+moto	TN	Tennessee	https://vietgameplay.com/dmv/handbooks/moto/TN_Tennessee_moto_handbook_en.pdf
+moto	TX	Texas	https://vietgameplay.com/dmv/handbooks/moto/TX_Texas_moto_handbook_en.pdf
+moto	UT	Utah	https://vietgameplay.com/dmv/handbooks/moto/UT_Utah_moto_handbook_en.pdf
+moto	VT	Vermont	https://vietgameplay.com/dmv/handbooks/moto/VT_Vermont_moto_handbook_en.pdf
+moto	VA	Virginia	https://vietgameplay.com/dmv/handbooks/moto/VA_Virginia_moto_handbook_en.pdf
+moto	WA	Washington	https://vietgameplay.com/dmv/handbooks/moto/WA_Washington_moto_handbook_en.pdf
+moto	WV	West Virginia	https://vietgameplay.com/dmv/handbooks/moto/WV_West_Virginia_moto_handbook_en.pdf
+moto	WI	Wisconsin	https://vietgameplay.com/dmv/handbooks/moto/WI_Wisconsin_moto_handbook_en.pdf
+moto	WY	Wyoming	https://vietgameplay.com/dmv/handbooks/moto/WY_Wyoming_moto_handbook_en.pdf
+cdl	AL	Alabama	https://vietgameplay.com/dmv/handbooks/cdl/AL_Alabama_cdl_handbook_en.pdf
+cdl	AK	Alaska	https://vietgameplay.com/dmv/handbooks/cdl/AK_Alaska_cdl_handbook_en.pdf
+cdl	AZ	Arizona	https://vietgameplay.com/dmv/handbooks/cdl/AZ_Arizona_cdl_handbook_en.pdf
+cdl	AR	Arkansas	https://vietgameplay.com/dmv/handbooks/cdl/AR_Arkansas_cdl_handbook_en.pdf
+cdl	CA	California	https://vietgameplay.com/dmv/handbooks/cdl/CA_California_cdl_handbook_en.pdf
+cdl	CO	Colorado	https://vietgameplay.com/dmv/handbooks/cdl/CO_Colorado_cdl_handbook_en.pdf
+cdl	CT	Connecticut	https://vietgameplay.com/dmv/handbooks/cdl/CT_Connecticut_cdl_handbook_en.pdf
+cdl	DE	Delaware	https://vietgameplay.com/dmv/handbooks/cdl/DE_Delaware_cdl_handbook_en.pdf
+cdl	DC	District of Columbia	https://vietgameplay.com/dmv/handbooks/cdl/DC_District_of_Columbia_cdl_handbook_en.pdf
+cdl	FL	Florida	https://vietgameplay.com/dmv/handbooks/cdl/FL_Florida_cdl_handbook_en.pdf
+cdl	GA	Georgia	https://vietgameplay.com/dmv/handbooks/cdl/GA_Georgia_cdl_handbook_en.pdf
+cdl	HI	Hawaii	https://vietgameplay.com/dmv/handbooks/cdl/HI_Hawaii_cdl_handbook_en.pdf
+cdl	ID	Idaho	https://vietgameplay.com/dmv/handbooks/cdl/ID_Idaho_cdl_handbook_en.pdf
+cdl	IL	Illinois	https://vietgameplay.com/dmv/handbooks/cdl/IL_Illinois_cdl_handbook_en.pdf
+cdl	IN	Indiana	https://vietgameplay.com/dmv/handbooks/cdl/IN_Indiana_cdl_handbook_en.pdf
+cdl	IA	Iowa	https://vietgameplay.com/dmv/handbooks/cdl/IA_Iowa_cdl_handbook_en.pdf
+cdl	KS	Kansas	https://vietgameplay.com/dmv/handbooks/cdl/KS_Kansas_cdl_handbook_en.pdf
+cdl	KY	Kentucky	https://vietgameplay.com/dmv/handbooks/cdl/KY_Kentucky_cdl_handbook_en.pdf
+cdl	LA	Louisiana	https://vietgameplay.com/dmv/handbooks/cdl/LA_Louisiana_cdl_handbook_en.pdf
+cdl	ME	Maine	https://vietgameplay.com/dmv/handbooks/cdl/ME_Maine_cdl_handbook_en.pdf
+cdl	MD	Maryland	https://vietgameplay.com/dmv/handbooks/cdl/MD_Maryland_cdl_handbook_en.pdf
+cdl	MA	Massachusetts	https://vietgameplay.com/dmv/handbooks/cdl/MA_Massachusetts_cdl_handbook_en.pdf
+cdl	MI	Michigan	https://vietgameplay.com/dmv/handbooks/cdl/MI_Michigan_cdl_handbook_en.pdf
+cdl	MN	Minnesota	https://vietgameplay.com/dmv/handbooks/cdl/MN_Minnesota_cdl_handbook_en.pdf
+cdl	MS	Mississippi	https://vietgameplay.com/dmv/handbooks/cdl/MS_Mississippi_cdl_handbook_en.pdf
+cdl	MO	Missouri	https://vietgameplay.com/dmv/handbooks/cdl/MO_Missouri_cdl_handbook_en.pdf
+cdl	MT	Montana	https://vietgameplay.com/dmv/handbooks/cdl/MT_Montana_cdl_handbook_en.pdf
+cdl	NE	Nebraska	https://vietgameplay.com/dmv/handbooks/cdl/NE_Nebraska_cdl_handbook_en.pdf
+cdl	NV	Nevada	https://vietgameplay.com/dmv/handbooks/cdl/NV_Nevada_cdl_handbook_en.pdf
+cdl	NH	New Hampshire	https://vietgameplay.com/dmv/handbooks/cdl/NH_New_Hampshire_cdl_handbook_en.pdf
+cdl	NJ	New Jersey	https://vietgameplay.com/dmv/handbooks/cdl/NJ_New_Jersey_cdl_handbook_en.pdf
+cdl	NM	New Mexico	https://vietgameplay.com/dmv/handbooks/cdl/NM_New_Mexico_cdl_handbook_en.pdf
+cdl	NY	New York	https://vietgameplay.com/dmv/handbooks/cdl/NY_New_York_cdl_handbook_en.pdf
+cdl	NC	North Carolina	https://vietgameplay.com/dmv/handbooks/cdl/NC_North_Carolina_cdl_handbook_en.pdf
+cdl	ND	North Dakota	https://vietgameplay.com/dmv/handbooks/cdl/ND_North_Dakota_cdl_handbook_en.pdf
+cdl	OH	Ohio	https://vietgameplay.com/dmv/handbooks/cdl/OH_Ohio_cdl_handbook_en.pdf
+cdl	OK	Oklahoma	https://vietgameplay.com/dmv/handbooks/cdl/OK_Oklahoma_cdl_handbook_en.pdf
+cdl	OR	Oregon	https://vietgameplay.com/dmv/handbooks/cdl/OR_Oregon_cdl_handbook_en.pdf
+cdl	PA	Pennsylvania	https://vietgameplay.com/dmv/handbooks/cdl/PA_Pennsylvania_cdl_handbook_en.pdf
+cdl	RI	Rhode Island	https://vietgameplay.com/dmv/handbooks/cdl/RI_Rhode_Island_cdl_handbook_en.pdf
+cdl	SC	South Carolina	https://vietgameplay.com/dmv/handbooks/cdl/SC_South_Carolina_cdl_handbook_en.pdf
+cdl	SD	South Dakota	https://vietgameplay.com/dmv/handbooks/cdl/SD_South_Dakota_cdl_handbook_en.pdf
+cdl	TN	Tennessee	https://vietgameplay.com/dmv/handbooks/cdl/TN_Tennessee_cdl_handbook_en.pdf
+cdl	TX	Texas	https://vietgameplay.com/dmv/handbooks/cdl/TX_Texas_cdl_handbook_en.pdf
+cdl	UT	Utah	https://vietgameplay.com/dmv/handbooks/cdl/UT_Utah_cdl_handbook_en.pdf
+cdl	VT	Vermont	https://vietgameplay.com/dmv/handbooks/cdl/VT_Vermont_cdl_handbook_en.pdf
+cdl	VA	Virginia	https://vietgameplay.com/dmv/handbooks/cdl/VA_Virginia_cdl_handbook_en.pdf
+cdl	WA	Washington	https://vietgameplay.com/dmv/handbooks/cdl/WA_Washington_cdl_handbook_en.pdf
+cdl	WV	West Virginia	https://vietgameplay.com/dmv/handbooks/cdl/WV_West_Virginia_cdl_handbook_en.pdf
+cdl	WI	Wisconsin	https://vietgameplay.com/dmv/handbooks/cdl/WI_Wisconsin_cdl_handbook_en.pdf
+cdl	WY	Wyoming	https://vietgameplay.com/dmv/handbooks/cdl/WY_Wyoming_cdl_handbook_en.pdf
