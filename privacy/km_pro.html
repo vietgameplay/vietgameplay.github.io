@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — Keyboard Mapper Pro</title>
+<style>
+  :root { --bg:#ffffff; --fg:#1a1a1a; --muted:#555; --line:#e2e2e2; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#141414; --fg:#eaeaea; --muted:#a8a8a8; --line:#333; }
+  }
+  body { background:var(--bg); color:var(--fg); font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Arial,sans-serif;
+         line-height:1.65; margin:0; padding:40px 16px; }
+  main { max-width:760px; margin:0 auto; }
+  h1 { font-size:1.9rem; margin-bottom:.2em; }
+  h2 { font-size:1.2rem; margin-top:2em; border-bottom:1px solid var(--line); padding-bottom:.3em; }
+  .meta { color:var(--muted); font-size:.95rem; }
+  table { border-collapse:collapse; width:100%; margin:1em 0; }
+  th, td { border:1px solid var(--line); padding:.55em .7em; text-align:left; font-size:.95rem; vertical-align:top; }
+  code { background:rgba(127,127,127,.15); padding:.1em .35em; border-radius:4px; }
+  a { color:inherit; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Privacy Policy for Keyboard Mapper Pro</h1>
+<p class="meta">
+  <strong>App name:</strong> Keyboard Mapper Pro<br>
+  <strong>Google Play package name (application ID):</strong> <code>com.vietgameplay.keyboardmapper.pro</code><br>
+  <strong>Developer / publisher name on Google Play:</strong> VietGamePlay<br>
+  <strong>Legal entity:</strong> VietGamePlay<br>
+  <strong>Contact email:</strong> vietgameplay@gmail.com<br>
+  <strong>Address:</strong> Da Nang, Viet Nam<br>
+  <strong>Effective date:</strong> 22 November 2026 &nbsp;·&nbsp; <strong>Last updated:</strong> 22 November 2026
+</p>
+
+<p>This Privacy Policy describes how VietGamePlay (“we”, “us”), the developer of the Android application
+<strong>Keyboard Mapper Pro</strong> (package <code>com.vietgameplay.keyboardmapper.pro</code>, the “App”),
+handles information in connection with the App. This policy applies only to this App. Our free app,
+KeyboardMapper (<code>com.vgp.keyboardmapper</code>), has its own privacy policy.</p>
+
+<h2>1. Summary</h2>
+<ul>
+  <li>The App has no internet permission. It cannot send any data off your device, to us or to anyone else.</li>
+  <li>It contains no ads, no analytics, no crash reporting and no in-app purchases.</li>
+  <li>We run no servers and hold no user accounts. We collect no personal data.</li>
+  <li>Everything the App reads or creates stays on your device. The exceptions are a profile file you
+      choose to share yourself, and Android's own backup if you have it turned on (sections 7 and 8).</li>
+</ul>
+
+<h2>2. Data stored on your device only</h2>
+<p>The App stores the following in its private storage on your device:</p>
+<ul>
+  <li><strong>Key-mapping profiles and layouts:</strong> key codes, on-screen positions (stored as fractions
+      of the screen size), gesture types, auto-click timing, and the package names of the games you
+      assign to a profile.</li>
+  <li><strong>Macros:</strong> the steps you create. Steps that type or search for text keep that text, and
+      steps that open an app keep its name.</li>
+  <li><strong>Image templates for “Find image” steps:</strong> small images you crop yourself from your
+      screen, saved as PNG files.</li>
+  <li><strong>App settings:</strong> for example the active profile, key size, theme, and your answer to the
+      accessibility disclosure.</li>
+</ul>
+<p>Uninstalling the App or clearing its data removes all of this. Values a macro produces while it runs, such
+as text it found or copied, are kept in memory for that run only and are not saved.</p>
+
+<h2>3. Accessibility Service and what the App does with it</h2>
+<p>The App uses an Android Accessibility Service. It asks for your consent in the App before you enable it.
+It uses the service only for the features below, and only on your device.</p>
+<table>
+  <tr><th>Capability</th><th>What it is used for</th></tr>
+  <tr><td>Filter key events</td>
+      <td>Read the keys you press on a physical keyboard, so a key can act as a tap, hold or swipe, and for
+      the App's keyboard shortcuts. Each key is checked in memory against your active profile; keys are
+      not recorded, stored or sent anywhere.</td></tr>
+  <tr><td>Perform gestures</td>
+      <td>Send the on-screen taps, holds and swipes that your key mappings and macros describe.</td></tr>
+  <tr><td>Window changes (app in the foreground)</td>
+      <td>Notice which app came to the front, so the profile you linked to a game becomes active by
+      itself. Only the package name is used, and it is not stored.</td></tr>
+  <tr><td>Retrieve window content</td>
+      <td>Only while a macro you started runs a “Find text” step: search the text of the apps on screen
+      for the words you entered, and type text into the field that has focus (“Input text”, “Paste
+      text”, “Press Enter”).</td></tr>
+  <tr><td>Take screenshots</td>
+      <td>Only while a macro runs a “Find image” step or a “Find text” step set to read the screen (OCR),
+      when you crop an image template, or for a “Screenshot” step. For searches the screenshot is kept in
+      memory, analysed on the device and discarded at once. A “Screenshot” step uses Android's own
+      screenshot, which Android saves to your device like any screenshot you take yourself.</td></tr>
+</table>
+<p>Text recognition (OCR) uses Google ML Kit's on-device text recognizer, which is bundled inside the App.
+It works offline, and because the App has no internet permission, nothing it reads leaves your device.</p>
+<p>The App does not use the Accessibility Service to collect passwords, messages or other personal content,
+and does not use it for advertising, analytics or profiling. Macros only run when you start them. You can
+turn the service off at any time in Android Settings → Accessibility.</p>
+
+<h2>4. Clipboard</h2>
+<p>A macro's “Copy text” step puts text on the Android clipboard, and its “Paste text” step pastes the
+clipboard into the field that has focus. The App touches the clipboard only for those steps.</p>
+
+<h2>5. Installed apps</h2>
+<p>To let you pick a game for a profile, open an app from a macro, or launch apps from the keyboard search
+box, the App lists the apps on your device that have a launcher icon. This list is built on the device when
+needed and is never stored or sent anywhere.</p>
+
+<h2>6. Permissions used</h2>
+<table>
+  <tr><th>Permission / capability</th><th>Why it is used</th></tr>
+  <tr><td>Accessibility Service</td>
+      <td>See section 3.</td></tr>
+  <tr><td>Display over other apps (<code>SYSTEM_ALERT_WINDOW</code>)</td>
+      <td>Draw the on-screen key map while you play and while you edit a layout.</td></tr>
+  <tr><td>Package visibility for launcher apps (<code>&lt;queries&gt;</code>)</td>
+      <td>List apps that have a launcher icon (section 5). The App does not request
+      <code>QUERY_ALL_PACKAGES</code>.</td></tr>
+</table>
+<p>The App does not request internet, network state, location, contacts, camera, microphone, storage or the
+Advertising ID.</p>
+
+<h2>7. Sharing profiles</h2>
+<p>If you choose to share a profile, the App creates a <code>.kmprofile.json</code> file with that profile's
+keys, layouts and the package names of its games, and hands it to the app you pick in Android's share sheet.
+That app handles the file under its own privacy policy. Nothing is shared unless you do this.</p>
+
+<h2>8. Android backup</h2>
+<p>If Android backup is turned on, Android may include the App's data (section 2) in your device backup, for
+example to your Google account. This is controlled by Android and your Google account settings, not by us,
+and we cannot access these backups. You can turn backup off in Android Settings.</p>
+
+<h2>9. Data we collect</h2>
+<p>We, VietGamePlay, collect no personal data. We do not sell or share any data, because we hold none.</p>
+
+<h2>10. Children</h2>
+<p>The App is not directed to children under 13. We do not knowingly collect personal information from
+children.</p>
+
+<h2>11. Your rights</h2>
+<p>Because we hold no personal data about you, there is no account or record for us to export or delete.
+You can delete all data stored by the App at any time by clearing its data or uninstalling it. If you have
+any question or request about your privacy, contact us at vietgameplay@gmail.com.</p>
+
+<h2>12. Changes to this policy</h2>
+<p>We may update this policy from time to time. The “Last updated” date at the top of this page shows the
+latest revision. Material changes will be published here before they take effect.</p>
+
+<h2>13. Contact</h2>
+<p>
+  VietGamePlay<br>
+  Da Nang, Viet Nam<br>
+  Email: <a href="mailto:vietgameplay@gmail.com">vietgameplay@gmail.com</a>
+</p>
+
+</main>
+</body>
+</html>
